@@ -1,0 +1,59 @@
+2025-09-28 15:39:00,777 - asyncio - DEBUG - Using selector: SelectSelector
+2025-09-28 15:40:24,467 - app.scraper_3 - INFO - === INITIALIZING INDEED SCRAPER ===
+2025-09-28 15:40:24,467 - app.scraper_3 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2025-09-28 15:40:24,467 - app.scraper_3 - INFO - Working directory: F:\indeed-scraper\backend
+2025-09-28 15:40:24,467 - app.scraper_3 - INFO - Process ID: 2412
+2025-09-28 15:40:24,467 - app.scraper_3 - INFO - Environment: FastAPI
+2025-09-28 15:40:24,473 - app.scraper_3 - INFO - ============================================================
+2025-09-28 15:40:24,473 - app.scraper_3 - INFO - STARTING NEW SCRAPING SESSION
+2025-09-28 15:40:24,473 - app.scraper_3 - INFO - ============================================================
+2025-09-28 15:40:24,474 - app.scraper_3 - INFO - Parameters: job_title='web scraper', location='Remote', max_pages=2
+2025-09-28 15:40:24,474 - app.scraper_3 - INFO - === ENVIRONMENT CHECK ===
+2025-09-28 15:40:24,474 - app.scraper_3 - INFO - DISPLAY environment: None
+2025-09-28 15:40:24,519 - app.scraper_3 - INFO - Available memory: 6.42 GB
+2025-09-28 15:40:24,519 - app.scraper_3 - INFO - Server environment detected: True
+2025-09-28 15:40:24,520 - app.scraper_3 - INFO - Configuring for headless server environment
+2025-09-28 15:40:24,520 - app.scraper_3 - INFO - Final SB configuration: {'uc': True, 'test': True, 'locale': 'en', 'ad_block': True, 'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'headless': True, 'disable_gpu': True, 'disable_dev_shm_usage': True, 'no_sandbox': True, 'disable_extensions': True, 'disable_plugins': True, 'disable_images': True, 'block_images': True, 'maximize': False, 'window_size': '1920,1080'}
+2025-09-28 15:40:24,520 - app.scraper_3 - INFO - Initializing SeleniumBase...
+2025-09-28 15:40:24,520 - app.scraper_3 - ERROR - Top-level scraping error: SB() got an unexpected keyword argument 'disable_gpu'
+2025-09-28 15:40:24,521 - app.scraper_3 - ERROR - Full traceback: Traceback (most recent call last):
+  File "F:\indeed-scraper\backend\app\scraper_3.py", line 328, in scrape_jobs
+    with SB(**sb_config) as sb:
+         ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 301, in helper
+    return _GeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: SB() got an unexpected keyword argument 'disable_gpu'
+
+2025-09-28 15:40:45,412 - app.scraper_3 - INFO - === INITIALIZING INDEED SCRAPER ===
+2025-09-28 15:40:45,412 - app.scraper_3 - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2025-09-28 15:40:45,412 - app.scraper_3 - INFO - Working directory: F:\indeed-scraper\backend
+2025-09-28 15:40:45,413 - app.scraper_3 - INFO - Process ID: 2412
+2025-09-28 15:40:45,413 - app.scraper_3 - INFO - Environment: FastAPI
+2025-09-28 15:40:45,420 - app.scraper_3 - INFO - ============================================================
+2025-09-28 15:40:45,421 - app.scraper_3 - INFO - STARTING NEW SCRAPING SESSION
+2025-09-28 15:40:45,421 - app.scraper_3 - INFO - ============================================================
+2025-09-28 15:40:45,421 - app.scraper_3 - INFO - Parameters: job_title='web scraper', location='Remote', max_pages=1
+2025-09-28 15:40:45,421 - app.scraper_3 - INFO - === ENVIRONMENT CHECK ===
+2025-09-28 15:40:45,421 - app.scraper_3 - INFO - DISPLAY environment: None
+2025-09-28 15:40:45,425 - app.scraper_3 - INFO - Available memory: 6.33 GB
+2025-09-28 15:40:45,426 - app.scraper_3 - INFO - Server environment detected: True
+2025-09-28 15:40:45,426 - app.scraper_3 - INFO - Configuring for headless server environment
+2025-09-28 15:40:45,426 - app.scraper_3 - INFO - Final SB configuration: {'uc': True, 'test': True, 'locale': 'en', 'ad_block': True, 'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'headless': True, 'disable_gpu': True, 'disable_dev_shm_usage': True, 'no_sandbox': True, 'disable_extensions': True, 'disable_plugins': True, 'disable_images': True, 'block_images': True, 'maximize': False, 'window_size': '1920,1080'}
+2025-09-28 15:40:45,426 - app.scraper_3 - INFO - Initializing SeleniumBase...
+2025-09-28 15:40:45,427 - app.scraper_3 - ERROR - Top-level scraping error: SB() got an unexpected keyword argument 'disable_gpu'
+2025-09-28 15:40:45,428 - app.scraper_3 - ERROR - Full traceback: Traceback (most recent call last):
+  File "F:\indeed-scraper\backend\app\scraper_3.py", line 328, in scrape_jobs
+    with SB(**sb_config) as sb:
+         ^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 301, in helper
+    return _GeneratorContextManager(func, args, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 105, in __init__
+    self.gen = func(*args, **kwds)
+               ^^^^^^^^^^^^^^^^^^^
+TypeError: SB() got an unexpected keyword argument 'disable_gpu'
+

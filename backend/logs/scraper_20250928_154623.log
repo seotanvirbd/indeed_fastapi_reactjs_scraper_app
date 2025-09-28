@@ -1,0 +1,1298 @@
+2025-09-28 15:46:23,481 - __main__ - INFO - Running direct test
+2025-09-28 15:46:23,481 - __main__ - INFO - === INITIALIZING INDEED SCRAPER ===
+2025-09-28 15:46:23,482 - __main__ - INFO - Python version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+2025-09-28 15:46:23,482 - __main__ - INFO - Working directory: F:\indeed-scraper\backend
+2025-09-28 15:46:23,482 - __main__ - INFO - Process ID: 19276
+2025-09-28 15:46:23,482 - __main__ - INFO - Environment: Direct execution
+2025-09-28 15:46:23,483 - __main__ - INFO - ============================================================
+2025-09-28 15:46:23,483 - __main__ - INFO - STARTING NEW SCRAPING SESSION
+2025-09-28 15:46:23,483 - __main__ - INFO - ============================================================
+2025-09-28 15:46:23,484 - __main__ - INFO - Parameters: job_title='Python Developer', location='Remote', max_pages=1
+2025-09-28 15:46:23,484 - __main__ - INFO - === ENVIRONMENT CHECK ===
+2025-09-28 15:46:23,484 - __main__ - INFO - DISPLAY environment: None
+2025-09-28 15:46:23,497 - __main__ - INFO - Available memory: 6.79 GB
+2025-09-28 15:46:23,497 - __main__ - INFO - Server environment detected: True
+2025-09-28 15:46:23,497 - __main__ - INFO - Configuring for headless server environment
+2025-09-28 15:46:23,497 - __main__ - INFO - Final SB configuration: {'uc': True, 'test': True, 'locale': 'en', 'agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'headless': True, 'maximize': False, 'window_size': '1920,1080'}
+2025-09-28 15:46:23,498 - __main__ - INFO - Initializing SeleniumBase...
+2025-09-28 15:46:25,845 - filelock - DEBUG - Attempting to acquire lock 2734800698544 on downloaded_files/pyautogui.lock
+2025-09-28 15:46:25,846 - filelock - DEBUG - Lock 2734800698544 acquired on downloaded_files/pyautogui.lock
+2025-09-28 15:46:25,849 - filelock - DEBUG - Attempting to release lock 2734800698544 on downloaded_files/pyautogui.lock
+2025-09-28 15:46:25,849 - filelock - DEBUG - Lock 2734800698544 released on downloaded_files/pyautogui.lock
+2025-09-28 15:46:25,850 - selenium.webdriver.common.driver_finder - DEBUG - Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Python312\Lib\site-packages\seleniumbase\drivers\uc_driver.exe
+2025-09-28 15:46:25,854 - selenium.webdriver.common.service - DEBUG - Started executable: `C:\Python312\Lib\site-packages\seleniumbase\drivers\uc_driver.exe` in a child process with pid: 760 using 134217728 to output -1
+2025-09-28 15:46:26,389 - selenium.webdriver.common.service - DEBUG - Started executable: `C:\Python312\Lib\site-packages\seleniumbase\drivers\uc_driver.exe` in a child process with pid: 11596 using 134217728 to output -1
+2025-09-28 15:46:26,422 - __main__ - INFO - SeleniumBase initialized successfully
+2025-09-28 15:46:26,423 - __main__ - INFO - Opening https://www.indeed.com/
+2025-09-28 15:46:28,482 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-09-28 15:46:28,484 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome/Application\chrome.exe is a valid candidate... 
+2025-09-28 15:46:28,484 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome Beta/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,485 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome Canary/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,485 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files (x86)\Google/Chrome/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,485 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files (x86)\Google/Chrome Beta/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,486 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files (x86)\Google/Chrome Canary/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,486 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Users\User\AppData\Local\Google/Chrome/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,486 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Users\User\AppData\Local\Google/Chrome Beta/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,487 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Users\User\AppData\Local\Google/Chrome Canary/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,487 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome/Application\chrome.exe is a valid candidate... 
+2025-09-28 15:46:28,487 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome Beta/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,487 - seleniumbase.undetected.cdp_driver.config - DEBUG - C:\Program Files\Google/Chrome Canary/Application\chrome.exe is not a valid candidate because it doesn't exist or isn't an executable.
+2025-09-28 15:46:28,488 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Session object initialized: {'config': Config
+	browser_executable_path = C:\Program Files\Google\Chrome\Application\chrome.exe
+	headless = True
+	sandbox = True
+	host = 127.0.0.1
+	port = 9222
+	autodiscover_targets = True
+	browser_args = ['--animation-duration-scale=0', '--deny-permission-prompts', '--disable-auto-reload', '--disable-background-networking', '--disable-background-timer-throttling', '--disable-backgrounding-occluded-windows', '--disable-breakpad', '--disable-client-side-phishing-detection', '--disable-dev-shm-usage', '--disable-features=IsolateOrigins,site-per-process,Translate,InsecureDownloadWarnings,DownloadBubble,DownloadBubbleV2,OptimizationTargetPrediction,OptimizationGuideModelDownloading,SidePanelPinning,UserAgentClientHint,PrivacySandboxSettings4,DisableLoadExtensionCommandLineSwitch', '--disable-infobars', '--disable-ipc-flooding-protection', '--disable-password-generation', '--disable-prompt-on-repost', '--disable-renderer-backgrounding', '--disable-search-engine-choice-screen', '--disable-top-sites', '--disable-translate', '--enable-privacy-sandbox-ads-apis', '--homepage=about:blank', '--no-default-browser-check', '--no-first-run', '--no-pings', '--no-service-autorun', '--password-store=basic', '--remote-allow-origins=*', '--safebrowsing-disable-download-protection', '--simulate-outdated-no-au="Tue, 31 Dec 2099 23:59:59 GMT"', '--window-position=20,54', '--window-size=1920,1080', '--wm-window-animations-disabled']
+	user_data_dir = C:\Users\User\AppData\Local\Temp\uc_uvam4mod
+	uses_custom_data_dir = False, 'targets': [], 'info': None, '_target': None, '_process': None, '_process_pid': None, '_keep_user_data_dir': None, '_is_updating': <asyncio.locks.Event object at 0x0000027CBDE5D880 [unset]>, 'connection': None}
+2025-09-28 15:46:28,489 - seleniumbase.undetected.cdp_driver.browser - INFO - Starting
+	executable :C:\Program Files\Google\Chrome\Application\chrome.exe
+
+arguments:
+--window-size=1920,1080
+	--window-position=20,54
+	--remote-allow-origins=*
+	--no-first-run
+	--no-service-autorun
+	--disable-auto-reload
+	--no-default-browser-check
+	--homepage=about:blank
+	--no-pings
+	--wm-window-animations-disabled
+	--animation-duration-scale=0
+	--enable-privacy-sandbox-ads-apis
+	--safebrowsing-disable-download-protection
+	--simulate-outdated-no-au="Tue, 31 Dec 2099 23:59:59 GMT"
+	--password-store=basic
+	--deny-permission-prompts
+	--disable-infobars
+	--disable-breakpad
+	--disable-prompt-on-repost
+	--disable-password-generation
+	--disable-ipc-flooding-protection
+	--disable-background-timer-throttling
+	--disable-search-engine-choice-screen
+	--disable-backgrounding-occluded-windows
+	--disable-client-side-phishing-detection
+	--disable-top-sites
+	--disable-translate
+	--disable-renderer-backgrounding
+	--disable-background-networking
+	--disable-dev-shm-usage
+	--disable-features=IsolateOrigins,site-per-process,Translate,InsecureDownloadWarnings,DownloadBubble,DownloadBubbleV2,OptimizationTargetPrediction,OptimizationGuideModelDownloading,SidePanelPinning,UserAgentClientHint,PrivacySandboxSettings4,DisableLoadExtensionCommandLineSwitch
+	--user-data-dir=C:\Users\User\AppData\Local\Temp\uc_uvam4mod
+	--disable-features=IsolateOrigins,site-per-process
+	--disable-session-crashed-bubble
+	--headless=new
+	--remote-debugging-host=127.0.0.1
+	--remote-debugging-port=9222
+2025-09-28 15:46:28,750 - seleniumbase.undetected.cdp_driver.browser - INFO - Enabling autodiscover targets
+2025-09-28 15:46:28,759 - websockets.client - DEBUG - = connection is CONNECTING
+2025-09-28 15:46:28,760 - websockets.client - DEBUG - > GET /devtools/browser/c5323db8-76a3-4ba5-af15-633313baa425 HTTP/1.1
+2025-09-28 15:46:28,760 - websockets.client - DEBUG - > Host: 127.0.0.1:9222
+2025-09-28 15:46:28,760 - websockets.client - DEBUG - > Upgrade: websocket
+2025-09-28 15:46:28,760 - websockets.client - DEBUG - > Connection: Upgrade
+2025-09-28 15:46:28,761 - websockets.client - DEBUG - > Sec-WebSocket-Key: V11QLuoG62O/TtxjcuF0VA==
+2025-09-28 15:46:28,761 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2025-09-28 15:46:28,761 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-09-28 15:46:28,761 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/15.0.1
+2025-09-28 15:46:28,762 - websockets.client - DEBUG - < HTTP/1.1 101 WebSocket Protocol Handshake
+2025-09-28 15:46:28,762 - websockets.client - DEBUG - < Upgrade: WebSocket
+2025-09-28 15:46:28,762 - websockets.client - DEBUG - < Connection: Upgrade
+2025-09-28 15:46:28,762 - websockets.client - DEBUG - < Sec-WebSocket-Accept: HnSqPoNsgllDYCqY9g/45zqX2yc=
+2025-09-28 15:46:28,763 - websockets.client - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits=15
+2025-09-28 15:46:28,763 - websockets.client - DEBUG - = connection is OPEN
+2025-09-28 15:46:28,763 - websockets.client - DEBUG - > TEXT '{"method": "Target.setDiscoverTargets", "params...cover": true}, "id": 0}' [78 bytes]
+2025-09-28 15:46:28,764 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [358 bytes]
+2025-09-28 15:46:28,764 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #1 created => <Tab [1AC9F51396D2A89D0D085F37FA67CE45] [iframe] [url: chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=]>
+2025-09-28 15:46:28,765 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [353 bytes]
+2025-09-28 15:46:28,765 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [257 bytes]
+2025-09-28 15:46:28,765 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [327 bytes]
+2025-09-28 15:46:28,765 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [397 bytes]
+2025-09-28 15:46:28,766 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:28,766 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #2 created => <Tab [74A2F619155B34C5FAD0B082BE17B901] [background_page] [url: chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html]>
+2025-09-28 15:46:28,766 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #3 created => <Tab [A93548986906A5CF20BFCA4CB45FAF31] [page] [url: chrome://newtab/]>
+2025-09-28 15:46:28,767 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [E419E154399EAA7A99CB8D3B482C25B8] [background_page] [url: chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html]>
+2025-09-28 15:46:28,767 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [F9DE64121085EA6E5C8D10C5F248EA0D] [service_worker] [url: chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/service_worker.js]>
+2025-09-28 15:46:28,767 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargets", "params": {}, "id": 6}' [54 bytes]
+2025-09-28 15:46:28,768 - websockets.client - DEBUG - < TEXT '{"id":6,"result":{"targetInfos":[{"targetId":"F...DB9513827E6B1E5F2B"}]}}' [1442 bytes]
+2025-09-28 15:46:28,768 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargets", "params": {}, "id": 7}' [54 bytes]
+2025-09-28 15:46:28,769 - websockets.client - DEBUG - < TEXT '{"id":7,"result":{"targetInfos":[{"targetId":"F...DB9513827E6B1E5F2B"}]}}' [1442 bytes]
+2025-09-28 15:46:28,770 - websockets.client - DEBUG - = connection is CONNECTING
+2025-09-28 15:46:28,770 - websockets.client - DEBUG - > GET /devtools/page/A93548986906A5CF20BFCA4CB45FAF31 HTTP/1.1
+2025-09-28 15:46:28,770 - websockets.client - DEBUG - > Host: 127.0.0.1:9222
+2025-09-28 15:46:28,771 - websockets.client - DEBUG - > Upgrade: websocket
+2025-09-28 15:46:28,771 - websockets.client - DEBUG - > Connection: Upgrade
+2025-09-28 15:46:28,771 - websockets.client - DEBUG - > Sec-WebSocket-Key: QQ0LJ6ojJa6jg0s9uLmTfw==
+2025-09-28 15:46:28,771 - websockets.client - DEBUG - > Sec-WebSocket-Version: 13
+2025-09-28 15:46:28,772 - websockets.client - DEBUG - > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+2025-09-28 15:46:28,772 - websockets.client - DEBUG - > User-Agent: Python/3.12 websockets/15.0.1
+2025-09-28 15:46:28,773 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [260 bytes]
+2025-09-28 15:46:28,773 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #2 has changed: 
+attached: False => True
+
+2025-09-28 15:46:28,773 - websockets.client - DEBUG - < HTTP/1.1 101 WebSocket Protocol Handshake
+2025-09-28 15:46:28,774 - websockets.client - DEBUG - < Upgrade: WebSocket
+2025-09-28 15:46:28,774 - websockets.client - DEBUG - < Connection: Upgrade
+2025-09-28 15:46:28,774 - websockets.client - DEBUG - < Sec-WebSocket-Accept: DTr3Wy4ApIKGuTMfmWSTr3FJI9Y=
+2025-09-28 15:46:28,774 - websockets.client - DEBUG - < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits=15
+2025-09-28 15:46:28,774 - websockets.client - DEBUG - = connection is OPEN
+2025-09-28 15:46:28,775 - websockets.client - DEBUG - > TEXT '{"method": "Network.setUserAgentOverride", "par...guage": "en"}, "id": 0}' [104 bytes]
+2025-09-28 15:46:28,776 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:28,776 - websockets.client - DEBUG - > TEXT '{"method": "Emulation.setLocaleOverride", "para...ocale": "en"}, "id": 0}' [78 bytes]
+2025-09-28 15:46:28,777 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:28,777 - websockets.client - DEBUG - > TEXT '{"method": "Page.navigate", "params": {"url": "about:blank"}, "id": 0}' [70 bytes]
+2025-09-28 15:46:28,784 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"frameId":"A93548986906A5CF20...C","isDownload":false}}' [129 bytes]
+2025-09-28 15:46:28,784 - websockets.client - DEBUG - > TEXT '{"method": "Network.setUserAgentOverride", "par...guage": "en"}, "id": 0}' [104 bytes]
+2025-09-28 15:46:28,820 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [259 bytes]
+2025-09-28 15:46:28,821 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #2 has changed: 
+title: New Tab => about:blank
+
+url: chrome://newtab/ => about:blank
+
+2025-09-28 15:46:28,822 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...A89D0D085F37FA67CE45"}}' [92 bytes]
+2025-09-28 15:46:28,823 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 0 => <Tab [1AC9F51396D2A89D0D085F37FA67CE45] [iframe] [url: chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=]>
+2025-09-28 15:46:28,823 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:28,823 - websockets.client - DEBUG - > TEXT '{"method": "Page.navigate", "params": {"url": "...indeed.com/"}, "id": 0}' [82 bytes]
+2025-09-28 15:46:29,198 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"frameId":"A93548986906A5CF20...A","isDownload":false}}' [129 bytes]
+2025-09-28 15:46:29,198 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:29,199 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [242 bytes]
+2025-09-28 15:46:29,204 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [270 bytes]
+2025-09-28 15:46:29,205 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #1 has changed: 
+title: about:blank => indeed.com
+
+2025-09-28 15:46:29,445 - filelock - DEBUG - Attempting to acquire lock 2734782865024 on downloaded_files/pyautogui.lock
+2025-09-28 15:46:29,445 - filelock - DEBUG - Lock 2734782865024 acquired on downloaded_files/pyautogui.lock
+2025-09-28 15:46:29,446 - websockets.client - DEBUG - > TEXT '{"method": "Target.activateTarget", "params": {...A4CB45FAF31"}, "id": 0}' [104 bytes]
+2025-09-28 15:46:29,446 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:29,447 - filelock - DEBUG - Attempting to release lock 2734782865024 on downloaded_files/pyautogui.lock
+2025-09-28 15:46:29,447 - filelock - DEBUG - Lock 2734782865024 released on downloaded_files/pyautogui.lock
+2025-09-28 15:46:29,447 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:29,448 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:30,757 - __main__ - INFO - CDP mode activated successfully
+2025-09-28 15:46:30,757 - __main__ - DEBUG - Sleeping for 3.78 seconds
+2025-09-28 15:46:34,584 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.evaluate", "params": {"expr...ByCSP": true}, "id": 0}' [207 bytes]
+2025-09-28 15:46:34,584 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [433 bytes]
+2025-09-28 15:46:34,600 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [1270CAD5A0BE60F8C1B2F75C262ECDA8] [service_worker] [url: https://sgtm.indeed.com/_/service_worker/5940/sw.js?origin=https%3A%2F%2Fwww.indeed.com]>
+2025-09-28 15:46:34,603 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"result":{"type":"string","va...ript></body></html>"}}}' [492955 bytes]
+2025-09-28 15:46:34,618 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:34,631 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":1,"backendNo...,"isScrollable":true}}}' [507856 bytes]
+2025-09-28 15:46:34,675 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [106 bytes]
+2025-09-28 15:46:34,679 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:34,681 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:34,682 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:34,792 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:34,804 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":1543,"backen...,"isScrollable":true}}}' [510427 bytes]
+2025-09-28 15:46:34,852 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:34,853 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:34,863 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:34,875 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":3085,"backen...,"isScrollable":true}}}' [510427 bytes]
+2025-09-28 15:46:34,893 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:34,894 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:34,897 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:34,897 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,013 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,025 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":4627,"backen...,"isScrollable":true}}}' [510427 bytes]
+2025-09-28 15:46:35,043 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:35,044 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,054 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,066 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":6169,"backen...,"isScrollable":true}}}' [510427 bytes]
+2025-09-28 15:46:35,084 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:35,085 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,087 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:35,087 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,204 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,216 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":7711,"backen...,"isScrollable":true}}}' [510427 bytes]
+2025-09-28 15:46:35,233 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:35,234 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,244 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,256 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":9253,"backen...,"isScrollable":true}}}' [511976 bytes]
+2025-09-28 15:46:35,275 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:35,276 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,278 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:35,279 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,396 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,408 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":10795,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,426 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile-\\"]"}, "id": 0}' [110 bytes]
+2025-09-28 15:46:35,427 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,437 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,449 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":12337,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,467 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...enges.c\\"]"}, "id": 0}' [114 bytes]
+2025-09-28 15:46:35,468 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,470 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:35,471 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,555 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,568 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":13879,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,586 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...enges.c\\"]"}, "id": 0}' [114 bytes]
+2025-09-28 15:46:35,587 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,596 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,608 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":15421,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,655 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...ot([class])"}, "id": 0}' [122 bytes]
+2025-09-28 15:46:35,656 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,658 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:35,659 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,761 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,773 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":16963,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,791 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...ot([class])"}, "id": 0}' [122 bytes]
+2025-09-28 15:46:35,792 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,803 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,815 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":18505,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,832 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...f-turn\\"])"}, "id": 0}' [136 bytes]
+2025-09-28 15:46:35,834 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,835 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:35,836 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:35,951 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:35,964 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":20047,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:35,981 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...f-turn\\"])"}, "id": 0}' [136 bytes]
+2025-09-28 15:46:35,982 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:35,992 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,004 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":21589,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,022 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile/\\"]"}, "id": 0}' [107 bytes]
+2025-09-28 15:46:36,023 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,025 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:36,026 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:36,141 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,153 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":23131,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,171 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile/\\"]"}, "id": 0}' [107 bytes]
+2025-09-28 15:46:36,172 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,183 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,195 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":24673,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,214 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile/\\"]"}, "id": 0}' [107 bytes]
+2025-09-28 15:46:36,215 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,216 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:36,217 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:36,332 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,344 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":26215,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,362 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...nstile/\\"]"}, "id": 0}' [107 bytes]
+2025-09-28 15:46:36,363 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,373 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,385 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":27757,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,404 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...ile-wrapper"}, "id": 0}' [106 bytes]
+2025-09-28 15:46:36,405 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,407 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:36,408 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:36,505 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,517 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":29299,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,565 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...ile-wrapper"}, "id": 0}' [106 bytes]
+2025-09-28 15:46:36,566 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,576 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,588 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":30841,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,606 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...rnstile\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:36,607 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,609 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:36,610 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:36,693 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,705 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":32383,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,723 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...rnstile\\"]"}, "id": 0}' [109 bytes]
+2025-09-28 15:46:36,724 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,734 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,746 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":33925,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,765 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...Success\\"]"}, "id": 0}' [121 bytes]
+2025-09-28 15:46:36,766 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,768 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...A4CB45FAF31"}, "id": 0}' [103 bytes]
+2025-09-28 15:46:36,769 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"targetInfo":{"targetId":"A93...9DB9513827E6B1E5F2B"}}}' [250 bytes]
+2025-09-28 15:46:36,868 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:36,880 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":35467,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:36,898 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...Success\\"]"}, "id": 0}' [121 bytes]
+2025-09-28 15:46:36,899 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":0}}' [30 bytes]
+2025-09-28 15:46:36,900 - __main__ - INFO - Captcha handled
+2025-09-28 15:46:36,901 - __main__ - DEBUG - Sleeping for 1.26 seconds
+2025-09-28 15:46:38,158 - __main__ - INFO - Filling search form...
+2025-09-28 15:46:38,166 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...ierce": true}, "id": 0}' [79 bytes]
+2025-09-28 15:46:38,178 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"root":{"nodeId":37009,"backe...,"isScrollable":true}}}' [513497 bytes]
+2025-09-28 15:46:38,196 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...ut-what\\"]"}, "id": 0}' [114 bytes]
+2025-09-28 15:46:38,197 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"nodeId":37516}}' [34 bytes]
+2025-09-28 15:46:38,199 - websockets.client - DEBUG - > TEXT '{"method": "DOM.scrollIntoViewIfNeeded", "param...ndNodeId": 7}, "id": 0}' [81 bytes]
+2025-09-28 15:46:38,199 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:38,208 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 0}' [70 bytes]
+2025-09-28 15:46:38,209 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"object":{"type":"object","su...116296486815890.2.1"}}}' [191 bytes]
+2025-09-28 15:46:38,209 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...sture": true}, "id": 0}' [247 bytes]
+2025-09-28 15:46:38,211 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{"result":{"type":"undefined"}}}' [49 bytes]
+2025-09-28 15:46:38,211 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ... "text": "P"}, "id": 0}' [86 bytes]
+2025-09-28 15:46:38,215 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...jgz0i3 focus-visible"}}' [120 bytes]
+2025-09-28 15:46:38,216 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...ble-added","value":""}}' [105 bytes]
+2025-09-28 15:46:38,216 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-17i9p4j e6fjgti1"}}' [119 bytes]
+2025-09-28 15:46:38,230 - websockets.client - DEBUG - < TEXT '{"id":0,"result":{}}' [20 bytes]
+2025-09-28 15:46:38,231 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...":"","nodeValue":"P"}}}' [193 bytes]
+2025-09-28 15:46:38,231 - websockets.client - DEBUG - < TEXT '{"method":"DOM.scrollableFlagUpdated","params":...,"isScrollable":false}}' [85 bytes]
+2025-09-28 15:46:38,232 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [828 bytes]
+2025-09-28 15:46:38,232 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...","css","data-s",""]}}}' [398 bytes]
+2025-09-28 15:46:38,232 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...box-list-suggestions"}}' [127 bytes]
+2025-09-28 15:46:38,232 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...anded","value":"true"}}' [98 bytes]
+2025-09-28 15:46:38,233 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no..."css-azflf5 e1jgz0i3"}}' [105 bytes]
+2025-09-28 15:46:38,233 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...":"value","value":"P"}}' [87 bytes]
+2025-09-28 15:46:38,233 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...s-1v25hvz e8ju0x50"]}}}' [382 bytes]
+2025-09-28 15:46:38,233 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-1rvarx8 e6fjgti1"}}' [119 bytes]
+2025-09-28 15:46:38,234 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...ss-148g1dk e1ttgm5y0"}}' [107 bytes]
+2025-09-28 15:46:38,234 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...ss-chgyum eu4oa1w0"]}}}' [287 bytes]
+2025-09-28 15:46:38,234 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...P&l=&from=searchOnHP"}}' [115 bytes]
+2025-09-28 15:46:38,234 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,280 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 18}' [71 bytes]
+2025-09-28 15:46:38,281 - websockets.client - DEBUG - < TEXT '{"id":18,"result":{"object":{"type":"object","s...116296486815890.2.2"}}}' [191 bytes]
+2025-09-28 15:46:38,281 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 19}' [248 bytes]
+2025-09-28 15:46:38,282 - websockets.client - DEBUG - < TEXT '{"id":19,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,282 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "y"}, "id": 20}' [87 bytes]
+2025-09-28 15:46:38,290 - websockets.client - DEBUG - < TEXT '{"id":20,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,291 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...,"characterData":"Py"}}' [85 bytes]
+2025-09-28 15:46:38,292 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [829 bytes]
+2025-09-28 15:46:38,292 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...:"value","value":"Py"}}' [88 bytes]
+2025-09-28 15:46:38,292 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...y&l=&from=searchOnHP"}}' [116 bytes]
+2025-09-28 15:46:38,293 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,338 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 26}' [71 bytes]
+2025-09-28 15:46:38,340 - websockets.client - DEBUG - < TEXT '{"id":26,"result":{"object":{"type":"object","s...116296486815890.2.3"}}}' [191 bytes]
+2025-09-28 15:46:38,340 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 27}' [248 bytes]
+2025-09-28 15:46:38,341 - websockets.client - DEBUG - < TEXT '{"id":27,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,341 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "t"}, "id": 28}' [87 bytes]
+2025-09-28 15:46:38,349 - websockets.client - DEBUG - < TEXT '{"id":28,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,349 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":..."characterData":"Pyt"}}' [86 bytes]
+2025-09-28 15:46:38,350 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [817 bytes]
+2025-09-28 15:46:38,350 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no..."value","value":"Pyt"}}' [89 bytes]
+2025-09-28 15:46:38,350 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...t&l=&from=searchOnHP"}}' [117 bytes]
+2025-09-28 15:46:38,395 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 33}' [71 bytes]
+2025-09-28 15:46:38,395 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,396 - websockets.client - DEBUG - < TEXT '{"id":33,"result":{"object":{"type":"object","s...116296486815890.2.4"}}}' [191 bytes]
+2025-09-28 15:46:38,396 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 35}' [248 bytes]
+2025-09-28 15:46:38,397 - websockets.client - DEBUG - < TEXT '{"id":35,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,397 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "h"}, "id": 36}' [87 bytes]
+2025-09-28 15:46:38,404 - websockets.client - DEBUG - < TEXT '{"id":36,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,404 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...characterData":"Pyth"}}' [87 bytes]
+2025-09-28 15:46:38,405 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [831 bytes]
+2025-09-28 15:46:38,406 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...value","value":"Pyth"}}' [90 bytes]
+2025-09-28 15:46:38,407 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...h&l=&from=searchOnHP"}}' [118 bytes]
+2025-09-28 15:46:38,407 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,453 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 42}' [71 bytes]
+2025-09-28 15:46:38,454 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38552,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,454 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,454 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...60,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,454 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38552}}' [80 bytes]
+2025-09-28 15:46:38,455 - websockets.client - DEBUG - < TEXT '{"id":42,"result":{"object":{"type":"object","s...116296486815890.2.5"}}}' [191 bytes]
+2025-09-28 15:46:38,455 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 47}' [248 bytes]
+2025-09-28 15:46:38,456 - websockets.client - DEBUG - < TEXT '{"id":47,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,456 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "o"}, "id": 48}' [87 bytes]
+2025-09-28 15:46:38,463 - websockets.client - DEBUG - < TEXT '{"id":48,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,463 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...haracterData":"Pytho"}}' [88 bytes]
+2025-09-28 15:46:38,464 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [831 bytes]
+2025-09-28 15:46:38,464 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...alue","value":"Pytho"}}' [91 bytes]
+2025-09-28 15:46:38,465 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...o&l=&from=searchOnHP"}}' [119 bytes]
+2025-09-28 15:46:38,465 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,510 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 54}' [71 bytes]
+2025-09-28 15:46:38,510 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38557,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,511 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,511 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...62,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,511 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38557}}' [80 bytes]
+2025-09-28 15:46:38,512 - websockets.client - DEBUG - < TEXT '{"id":54,"result":{"object":{"type":"object","s...116296486815890.2.6"}}}' [191 bytes]
+2025-09-28 15:46:38,512 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 59}' [248 bytes]
+2025-09-28 15:46:38,513 - websockets.client - DEBUG - < TEXT '{"id":59,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,513 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "n"}, "id": 60}' [87 bytes]
+2025-09-28 15:46:38,520 - websockets.client - DEBUG - < TEXT '{"id":60,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,520 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...aracterData":"Python"}}' [89 bytes]
+2025-09-28 15:46:38,520 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [833 bytes]
+2025-09-28 15:46:38,521 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...lue","value":"Python"}}' [92 bytes]
+2025-09-28 15:46:38,521 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...n&l=&from=searchOnHP"}}' [120 bytes]
+2025-09-28 15:46:38,566 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 65}' [71 bytes]
+2025-09-28 15:46:38,566 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,567 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38558,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,567 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,567 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...64,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,568 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38558}}' [80 bytes]
+2025-09-28 15:46:38,568 - websockets.client - DEBUG - < TEXT '{"id":65,"result":{"object":{"type":"object","s...116296486815890.2.7"}}}' [191 bytes]
+2025-09-28 15:46:38,568 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 71}' [248 bytes]
+2025-09-28 15:46:38,569 - websockets.client - DEBUG - < TEXT '{"id":71,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,569 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": " "}, "id": 72}' [87 bytes]
+2025-09-28 15:46:38,577 - websockets.client - DEBUG - < TEXT '{"id":72,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,577 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...racterData":"Python "}}' [90 bytes]
+2025-09-28 15:46:38,577 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [825 bytes]
+2025-09-28 15:46:38,578 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...ue","value":"Python "}}' [93 bytes]
+2025-09-28 15:46:38,579 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...0&l=&from=searchOnHP"}}' [123 bytes]
+2025-09-28 15:46:38,579 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,633 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 78}' [71 bytes]
+2025-09-28 15:46:38,644 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38559,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,644 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,645 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...66,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,645 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38559}}' [80 bytes]
+2025-09-28 15:46:38,645 - websockets.client - DEBUG - < TEXT '{"id":78,"result":{"object":{"type":"object","s...116296486815890.2.8"}}}' [191 bytes]
+2025-09-28 15:46:38,646 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 83}' [248 bytes]
+2025-09-28 15:46:38,647 - websockets.client - DEBUG - < TEXT '{"id":83,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,647 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "D"}, "id": 84}' [87 bytes]
+2025-09-28 15:46:38,655 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...acterData":"Python D"}}' [91 bytes]
+2025-09-28 15:46:38,661 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [826 bytes]
+2025-09-28 15:46:38,661 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...e","value":"Python D"}}' [94 bytes]
+2025-09-28 15:46:38,662 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...D&l=&from=searchOnHP"}}' [124 bytes]
+2025-09-28 15:46:38,662 - websockets.client - DEBUG - < TEXT '{"id":84,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,662 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,708 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 90}' [71 bytes]
+2025-09-28 15:46:38,709 - websockets.client - DEBUG - < TEXT '{"id":90,"result":{"object":{"type":"object","s...116296486815890.2.9"}}}' [191 bytes]
+2025-09-28 15:46:38,709 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ture": true}, "id": 91}' [248 bytes]
+2025-09-28 15:46:38,710 - websockets.client - DEBUG - < TEXT '{"id":91,"result":{"result":{"type":"undefined"}}}' [50 bytes]
+2025-09-28 15:46:38,710 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ..."text": "e"}, "id": 92}' [87 bytes]
+2025-09-28 15:46:38,715 - websockets.client - DEBUG - < TEXT '{"id":92,"result":{}}' [21 bytes]
+2025-09-28 15:46:38,716 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...cterData":"Python De"}}' [92 bytes]
+2025-09-28 15:46:38,716 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [838 bytes]
+2025-09-28 15:46:38,716 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...","value":"Python De"}}' [95 bytes]
+2025-09-28 15:46:38,717 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...e&l=&from=searchOnHP"}}' [125 bytes]
+2025-09-28 15:46:38,762 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 97}' [71 bytes]
+2025-09-28 15:46:38,762 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,763 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38565,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,763 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,763 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...69,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,764 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38565}}' [80 bytes]
+2025-09-28 15:46:38,764 - websockets.client - DEBUG - < TEXT '{"id":97,"result":{"object":{"type":"object","s...16296486815890.2.10"}}}' [192 bytes]
+2025-09-28 15:46:38,764 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 103}' [251 bytes]
+2025-09-28 15:46:38,765 - websockets.client - DEBUG - < TEXT '{"id":103,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:38,765 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "v"}, "id": 104}' [88 bytes]
+2025-09-28 15:46:38,770 - websockets.client - DEBUG - < TEXT '{"id":104,"result":{}}' [22 bytes]
+2025-09-28 15:46:38,770 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...terData":"Python Dev"}}' [93 bytes]
+2025-09-28 15:46:38,771 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [838 bytes]
+2025-09-28 15:46:38,771 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...,"value":"Python Dev"}}' [96 bytes]
+2025-09-28 15:46:38,771 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...v&l=&from=searchOnHP"}}' [126 bytes]
+2025-09-28 15:46:38,817 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 109}' [72 bytes]
+2025-09-28 15:46:38,817 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,818 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38561,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,818 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,818 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...71,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,818 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38561}}' [80 bytes]
+2025-09-28 15:46:38,819 - websockets.client - DEBUG - < TEXT '{"id":109,"result":{"object":{"type":"object","...16296486815890.2.11"}}}' [193 bytes]
+2025-09-28 15:46:38,819 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 115}' [251 bytes]
+2025-09-28 15:46:38,820 - websockets.client - DEBUG - < TEXT '{"id":115,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:38,820 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "e"}, "id": 116}' [88 bytes]
+2025-09-28 15:46:38,825 - websockets.client - DEBUG - < TEXT '{"id":116,"result":{}}' [22 bytes]
+2025-09-28 15:46:38,826 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...erData":"Python Deve"}}' [94 bytes]
+2025-09-28 15:46:38,826 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [829 bytes]
+2025-09-28 15:46:38,826 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no..."value":"Python Deve"}}' [97 bytes]
+2025-09-28 15:46:38,827 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...e&l=&from=searchOnHP"}}' [127 bytes]
+2025-09-28 15:46:38,827 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38563,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,828 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,828 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...73,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,828 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,874 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38563}}' [80 bytes]
+2025-09-28 15:46:38,874 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 125}' [72 bytes]
+2025-09-28 15:46:38,875 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38567,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,875 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,875 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...74,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,876 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38567}}' [80 bytes]
+2025-09-28 15:46:38,876 - websockets.client - DEBUG - < TEXT '{"id":125,"result":{"object":{"type":"object","...16296486815890.2.12"}}}' [193 bytes]
+2025-09-28 15:46:38,877 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 131}' [251 bytes]
+2025-09-28 15:46:38,877 - websockets.client - DEBUG - < TEXT '{"id":131,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:38,877 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "l"}, "id": 132}' [88 bytes]
+2025-09-28 15:46:38,882 - websockets.client - DEBUG - < TEXT '{"id":132,"result":{}}' [22 bytes]
+2025-09-28 15:46:38,883 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...rData":"Python Devel"}}' [95 bytes]
+2025-09-28 15:46:38,883 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [842 bytes]
+2025-09-28 15:46:38,884 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...value":"Python Devel"}}' [98 bytes]
+2025-09-28 15:46:38,884 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...l&l=&from=searchOnHP"}}' [128 bytes]
+2025-09-28 15:46:38,929 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 137}' [72 bytes]
+2025-09-28 15:46:38,929 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,930 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38568,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,930 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,930 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...76,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,930 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38568}}' [80 bytes]
+2025-09-28 15:46:38,931 - websockets.client - DEBUG - < TEXT '{"id":137,"result":{"object":{"type":"object","...16296486815890.2.13"}}}' [193 bytes]
+2025-09-28 15:46:38,931 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 143}' [251 bytes]
+2025-09-28 15:46:38,932 - websockets.client - DEBUG - < TEXT '{"id":143,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:38,932 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "o"}, "id": 144}' [88 bytes]
+2025-09-28 15:46:38,937 - websockets.client - DEBUG - < TEXT '{"id":144,"result":{}}' [22 bytes]
+2025-09-28 15:46:38,937 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...Data":"Python Develo"}}' [96 bytes]
+2025-09-28 15:46:38,938 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [843 bytes]
+2025-09-28 15:46:38,938 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...alue":"Python Develo"}}' [99 bytes]
+2025-09-28 15:46:38,938 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...o&l=&from=searchOnHP"}}' [129 bytes]
+2025-09-28 15:46:38,983 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 149}' [72 bytes]
+2025-09-28 15:46:38,984 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:38,984 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38570,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:38,985 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:38,985 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...78,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:38,985 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38570}}' [80 bytes]
+2025-09-28 15:46:38,986 - websockets.client - DEBUG - < TEXT '{"id":149,"result":{"object":{"type":"object","...16296486815890.2.14"}}}' [193 bytes]
+2025-09-28 15:46:38,986 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 155}' [251 bytes]
+2025-09-28 15:46:38,987 - websockets.client - DEBUG - < TEXT '{"id":155,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:38,987 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "p"}, "id": 156}' [88 bytes]
+2025-09-28 15:46:38,992 - websockets.client - DEBUG - < TEXT '{"id":156,"result":{}}' [22 bytes]
+2025-09-28 15:46:38,992 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...ata":"Python Develop"}}' [97 bytes]
+2025-09-28 15:46:38,994 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [844 bytes]
+2025-09-28 15:46:38,994 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...lue":"Python Develop"}}' [100 bytes]
+2025-09-28 15:46:38,995 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...p&l=&from=searchOnHP"}}' [130 bytes]
+2025-09-28 15:46:38,995 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:39,040 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 162}' [72 bytes]
+2025-09-28 15:46:39,040 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38572,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,041 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,041 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...80,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,041 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38572}}' [80 bytes]
+2025-09-28 15:46:39,041 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38575,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,042 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,042 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...81,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,042 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38575}}' [80 bytes]
+2025-09-28 15:46:39,043 - websockets.client - DEBUG - < TEXT '{"id":162,"result":{"object":{"type":"object","...16296486815890.2.15"}}}' [193 bytes]
+2025-09-28 15:46:39,043 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 171}' [251 bytes]
+2025-09-28 15:46:39,044 - websockets.client - DEBUG - < TEXT '{"id":171,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,044 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "e"}, "id": 172}' [88 bytes]
+2025-09-28 15:46:39,048 - websockets.client - DEBUG - < TEXT '{"id":172,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,049 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...ta":"Python Develope"}}' [98 bytes]
+2025-09-28 15:46:39,049 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [845 bytes]
+2025-09-28 15:46:39,050 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...ue":"Python Develope"}}' [101 bytes]
+2025-09-28 15:46:39,050 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...e&l=&from=searchOnHP"}}' [131 bytes]
+2025-09-28 15:46:39,050 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:39,096 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 7}, "id": 178}' [72 bytes]
+2025-09-28 15:46:39,097 - websockets.client - DEBUG - < TEXT '{"id":178,"result":{"object":{"type":"object","...16296486815890.2.16"}}}' [193 bytes]
+2025-09-28 15:46:39,097 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 179}' [251 bytes]
+2025-09-28 15:46:39,098 - websockets.client - DEBUG - < TEXT '{"id":179,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,098 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "r"}, "id": 180}' [88 bytes]
+2025-09-28 15:46:39,103 - websockets.client - DEBUG - < TEXT '{"id":180,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,103 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...a":"Python Developer"}}' [99 bytes]
+2025-09-28 15:46:39,103 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [846 bytes]
+2025-09-28 15:46:39,104 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...e":"Python Developer"}}' [102 bytes]
+2025-09-28 15:46:39,104 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...r&l=&from=searchOnHP"}}' [132 bytes]
+2025-09-28 15:46:39,150 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 185}' [105 bytes]
+2025-09-28 15:46:39,150 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[37518]}}' [68 bytes]
+2025-09-28 15:46:39,151 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38577,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,151 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,151 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...84,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,152 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38577}}' [80 bytes]
+2025-09-28 15:46:39,152 - websockets.client - DEBUG - < TEXT '{"id":185,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [252 bytes]
+2025-09-28 15:46:39,172 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38579,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,173 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,173 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...85,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,174 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38579}}' [80 bytes]
+2025-09-28 15:46:39,174 - __main__ - DEBUG - Sleeping for 0.52 seconds
+2025-09-28 15:46:39,700 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 195}' [81 bytes]
+2025-09-28 15:46:39,700 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38582,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,701 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,701 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...86,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,701 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38582}}' [80 bytes]
+2025-09-28 15:46:39,702 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":38583,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,702 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,702 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...87,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,702 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:37309,"nodeId":38583}}' [80 bytes]
+2025-09-28 15:46:39,713 - websockets.client - DEBUG - < TEXT '{"id":195,"result":{"root":{"nodeId":38588,"bac...,"isScrollable":true}}}' [520694 bytes]
+2025-09-28 15:46:39,734 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelector", "params": {"nod...where\\"]"}, "id": 204}' [117 bytes]
+2025-09-28 15:46:39,735 - websockets.client - DEBUG - < TEXT '{"id":204,"result":{"nodeId":39149}}' [36 bytes]
+2025-09-28 15:46:39,737 - websockets.client - DEBUG - > TEXT '{"method": "DOM.scrollIntoViewIfNeeded", "param...NodeId": 8}, "id": 205}' [83 bytes]
+2025-09-28 15:46:39,737 - websockets.client - DEBUG - < TEXT '{"id":205,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,745 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 206}' [72 bytes]
+2025-09-28 15:46:39,746 - websockets.client - DEBUG - < TEXT '{"id":206,"result":{"object":{"type":"object","...16296486815890.2.17"}}}' [195 bytes]
+2025-09-28 15:46:39,746 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 207}' [251 bytes]
+2025-09-28 15:46:39,750 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeRemoved","params":{"nod...-focus-visible-added"}}' [93 bytes]
+2025-09-28 15:46:39,750 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...jgz0i3 focus-visible"}}' [120 bytes]
+2025-09-28 15:46:39,751 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...ble-added","value":""}}' [105 bytes]
+2025-09-28 15:46:39,751 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:39085,"nodeId":39107}}' [80 bytes]
+2025-09-28 15:46:39,751 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeRemoved","params":{"nod...ria-activedescendant"}}' [90 bytes]
+2025-09-28 15:46:39,751 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...nded","value":"false"}}' [99 bytes]
+2025-09-28 15:46:39,752 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-17i9p4j e6fjgti1"}}' [106 bytes]
+2025-09-28 15:46:39,752 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-3l0i2j e1ttgm5y0"}}' [106 bytes]
+2025-09-28 15:46:39,752 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no... css-v2bl9v e6fjgti1"}}' [118 bytes]
+2025-09-28 15:46:39,753 - websockets.client - DEBUG - < TEXT '{"id":207,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,753 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params"...odeIds":[39151,39098]}}' [74 bytes]
+2025-09-28 15:46:39,754 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "R"}, "id": 217}' [88 bytes]
+2025-09-28 15:46:39,765 - websockets.client - DEBUG - < TEXT '{"id":217,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,765 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...":"","nodeValue":"R"}}}' [193 bytes]
+2025-09-28 15:46:39,765 - websockets.client - DEBUG - < TEXT '{"method":"DOM.scrollableFlagUpdated","params":...,"isScrollable":false}}' [85 bytes]
+2025-09-28 15:46:39,766 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [830 bytes]
+2025-09-28 15:46:39,766 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...anded","value":"true"}}' [98 bytes]
+2025-09-28 15:46:39,766 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no..."css-azflf5 e1jgz0i3"}}' [105 bytes]
+2025-09-28 15:46:39,767 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...":"value","value":"R"}}' [87 bytes]
+2025-09-28 15:46:39,767 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...s-1v25hvz e8ju0x50"]}}}' [387 bytes]
+2025-09-28 15:46:39,767 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-13x5ow0 e6fjgti1"}}' [119 bytes]
+2025-09-28 15:46:39,767 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...css-2fwpfb e1ttgm5y0"}}' [106 bytes]
+2025-09-28 15:46:39,767 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...ss-chgyum eu4oa1w0"]}}}' [288 bytes]
+2025-09-28 15:46:39,768 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...&l=R&from=searchOnHP"}}' [133 bytes]
+2025-09-28 15:46:39,813 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 230}' [72 bytes]
+2025-09-28 15:46:39,813 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:39,814 - websockets.client - DEBUG - < TEXT '{"id":230,"result":{"object":{"type":"object","...16296486815890.2.18"}}}' [194 bytes]
+2025-09-28 15:46:39,815 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 232}' [251 bytes]
+2025-09-28 15:46:39,816 - websockets.client - DEBUG - < TEXT '{"id":232,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,816 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "e"}, "id": 233}' [88 bytes]
+2025-09-28 15:46:39,822 - websockets.client - DEBUG - < TEXT '{"id":233,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,823 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...,"characterData":"Re"}}' [85 bytes]
+2025-09-28 15:46:39,824 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [831 bytes]
+2025-09-28 15:46:39,824 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...:"value","value":"Re"}}' [88 bytes]
+2025-09-28 15:46:39,824 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...l=Re&from=searchOnHP"}}' [134 bytes]
+2025-09-28 15:46:39,824 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:39,870 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 239}' [72 bytes]
+2025-09-28 15:46:39,871 - websockets.client - DEBUG - < TEXT '{"id":239,"result":{"object":{"type":"object","...16296486815890.2.19"}}}' [194 bytes]
+2025-09-28 15:46:39,871 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 240}' [251 bytes]
+2025-09-28 15:46:39,873 - websockets.client - DEBUG - < TEXT '{"id":240,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,873 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "m"}, "id": 241}' [88 bytes]
+2025-09-28 15:46:39,878 - websockets.client - DEBUG - < TEXT '{"id":241,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,879 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":..."characterData":"Rem"}}' [86 bytes]
+2025-09-28 15:46:39,879 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [832 bytes]
+2025-09-28 15:46:39,879 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no..."value","value":"Rem"}}' [89 bytes]
+2025-09-28 15:46:39,880 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...=Rem&from=searchOnHP"}}' [135 bytes]
+2025-09-28 15:46:39,925 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 246}' [72 bytes]
+2025-09-28 15:46:39,925 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:39,926 - websockets.client - DEBUG - < TEXT '{"id":246,"result":{"object":{"type":"object","...16296486815890.2.20"}}}' [194 bytes]
+2025-09-28 15:46:39,926 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 248}' [251 bytes]
+2025-09-28 15:46:39,927 - websockets.client - DEBUG - < TEXT '{"id":248,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,928 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40161,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:39,928 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "o"}, "id": 249}' [88 bytes]
+2025-09-28 15:46:39,928 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:39,928 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...66,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:39,929 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40161}}' [80 bytes]
+2025-09-28 15:46:39,933 - websockets.client - DEBUG - < TEXT '{"id":249,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,934 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...characterData":"Remo"}}' [87 bytes]
+2025-09-28 15:46:39,934 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [832 bytes]
+2025-09-28 15:46:39,934 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...value","value":"Remo"}}' [90 bytes]
+2025-09-28 15:46:39,935 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...Remo&from=searchOnHP"}}' [136 bytes]
+2025-09-28 15:46:39,980 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 258}' [72 bytes]
+2025-09-28 15:46:39,980 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:39,981 - websockets.client - DEBUG - < TEXT '{"id":258,"result":{"object":{"type":"object","...16296486815890.2.21"}}}' [194 bytes]
+2025-09-28 15:46:39,981 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 260}' [251 bytes]
+2025-09-28 15:46:39,982 - websockets.client - DEBUG - < TEXT '{"id":260,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:39,982 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "t"}, "id": 261}' [88 bytes]
+2025-09-28 15:46:39,987 - websockets.client - DEBUG - < TEXT '{"id":261,"result":{}}' [22 bytes]
+2025-09-28 15:46:39,987 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...haracterData":"Remot"}}' [88 bytes]
+2025-09-28 15:46:39,987 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [833 bytes]
+2025-09-28 15:46:39,988 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...alue","value":"Remot"}}' [91 bytes]
+2025-09-28 15:46:39,988 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...emot&from=searchOnHP"}}' [137 bytes]
+2025-09-28 15:46:40,033 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backendNodeId": 8}, "id": 266}' [72 bytes]
+2025-09-28 15:46:40,033 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:40,034 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40164,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:40,034 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:40,034 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...69,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:40,034 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40164}}' [80 bytes]
+2025-09-28 15:46:40,035 - websockets.client - DEBUG - < TEXT '{"id":266,"result":{"object":{"type":"object","...16296486815890.2.22"}}}' [194 bytes]
+2025-09-28 15:46:40,035 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ure": true}, "id": 272}' [251 bytes]
+2025-09-28 15:46:40,036 - websockets.client - DEBUG - < TEXT '{"id":272,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:40,036 - websockets.client - DEBUG - > TEXT '{"method": "Input.dispatchKeyEvent", "params": ...text": "e"}, "id": 273}' [88 bytes]
+2025-09-28 15:46:40,041 - websockets.client - DEBUG - < TEXT '{"id":273,"result":{}}' [22 bytes]
+2025-09-28 15:46:40,042 - websockets.client - DEBUG - < TEXT '{"method":"DOM.characterDataModified","params":...aracterData":"Remote"}}' [89 bytes]
+2025-09-28 15:46:40,043 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...e","display: none;"]}}}' [835 bytes]
+2025-09-28 15:46:40,043 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...lue","value":"Remote"}}' [92 bytes]
+2025-09-28 15:46:40,043 - websockets.client - DEBUG - < TEXT '{"method":"DOM.attributeModified","params":{"no...mote&from=searchOnHP"}}' [138 bytes]
+2025-09-28 15:46:40,044 - websockets.client - DEBUG - < TEXT '{"method":"DOM.inlineStyleInvalidated","params":{"nodeIds":[39151]}}' [68 bytes]
+2025-09-28 15:46:40,089 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 279}' [105 bytes]
+2025-09-28 15:46:40,089 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40165,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:40,090 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:40,090 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...71,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:40,090 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40165}}' [80 bytes]
+2025-09-28 15:46:40,091 - websockets.client - DEBUG - < TEXT '{"id":279,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [252 bytes]
+2025-09-28 15:46:40,106 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40167,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:40,106 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:40,106 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...72,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:40,106 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40167}}' [80 bytes]
+2025-09-28 15:46:40,107 - __main__ - DEBUG - Sleeping for 0.61 seconds
+2025-09-28 15:46:40,721 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 288}' [81 bytes]
+2025-09-28 15:46:40,721 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40168,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:40,722 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:40,722 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...73,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:40,722 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40168}}' [80 bytes]
+2025-09-28 15:46:40,723 - websockets.client - DEBUG - < TEXT '{"method":"DOM.setChildNodes","params":{"parentId":40170,"nodes":[]}}' [69 bytes]
+2025-09-28 15:46:40,723 - websockets.client - DEBUG - < TEXT '{"method":"DOM.shadowRootPushed","params":{"hos...otType":"user-agent"}}}' [229 bytes]
+2025-09-28 15:46:40,723 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeCountUpdated","params":...74,"childNodeCount":1}}' [83 bytes]
+2025-09-28 15:46:40,723 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:38889,"nodeId":40170}}' [80 bytes]
+2025-09-28 15:46:40,734 - websockets.client - DEBUG - < TEXT '{"id":288,"result":{"root":{"nodeId":40175,"bac...,"isScrollable":true}}}' [520144 bytes]
+2025-09-28 15:46:40,754 - websockets.client - DEBUG - > TEXT '{"method": "DOM.performSearch", "params": {"que...DOM": true}, "id": 297}' [125 bytes]
+2025-09-28 15:46:40,756 - websockets.client - DEBUG - < TEXT '{"id":297,"result":{"searchId":"12424.0","resultCount":1}}' [58 bytes]
+2025-09-28 15:46:40,757 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getSearchResults", "params": {"...oIndex": 1}, "id": 298}' [110 bytes]
+2025-09-28 15:46:40,758 - websockets.client - DEBUG - < TEXT '{"id":298,"result":{"nodeIds":[40739]}}' [39 bytes]
+2025-09-28 15:46:40,759 - websockets.client - DEBUG - > TEXT '{"method": "DOM.discardSearchResults", "params"... "12424.0"}, "id": 299}' [84 bytes]
+2025-09-28 15:46:40,759 - websockets.client - DEBUG - < TEXT '{"id":299,"result":{}}' [22 bytes]
+2025-09-28 15:46:40,761 - websockets.client - DEBUG - > TEXT '{"method": "DOM.disable", "params": [], "id": 300}' [50 bytes]
+2025-09-28 15:46:40,762 - websockets.client - DEBUG - < TEXT '{"id":300,"result":{}}' [22 bytes]
+2025-09-28 15:46:40,762 - websockets.client - DEBUG - > TEXT '{"method": "DOM.scrollIntoViewIfNeeded", "param...deId": 592}, "id": 301}' [85 bytes]
+2025-09-28 15:46:40,763 - websockets.client - DEBUG - < TEXT '{"id":301,"result":{}}' [22 bytes]
+2025-09-28 15:46:40,771 - websockets.client - DEBUG - > TEXT '{"method": "DOM.resolveNode", "params": {"backe...deId": 592}, "id": 302}' [74 bytes]
+2025-09-28 15:46:40,771 - websockets.client - DEBUG - < TEXT '{"id":302,"result":{"object":{"type":"object","...16296486815890.2.23"}}}' [217 bytes]
+2025-09-28 15:46:40,772 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getContentQuads", "params": {"o...5890.2.23"}, "id": 303}' [97 bytes]
+2025-09-28 15:46:40,773 - websockets.client - DEBUG - < TEXT '{"id":303,"result":{"quads":[[1256.5,106,1350.5...50.5,150,1256.5,150]]}}' [77 bytes]
+2025-09-28 15:46:40,773 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ise": true}, "id": 304}' [1013 bytes]
+2025-09-28 15:46:40,775 - websockets.client - DEBUG - < TEXT '{"id":304,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:40,775 - websockets.client - DEBUG - > TEXT '{"method": "Runtime.callFunctionOn", "params": ...ise": true}, "id": 305}' [269 bytes]
+2025-09-28 15:46:40,784 - websockets.client - DEBUG - < TEXT '{"id":305,"result":{"result":{"type":"undefined"}}}' [51 bytes]
+2025-09-28 15:46:40,784 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 306}' [105 bytes]
+2025-09-28 15:46:40,789 - websockets.client - DEBUG - < TEXT '{"id":306,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [252 bytes]
+2025-09-28 15:46:40,897 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 307}' [105 bytes]
+2025-09-28 15:46:40,898 - websockets.client - DEBUG - < TEXT '{"id":307,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [252 bytes]
+2025-09-28 15:46:40,991 - __main__ - INFO - Form filled using CDP
+2025-09-28 15:46:40,991 - __main__ - DEBUG - Sleeping for 4.44 seconds
+2025-09-28 15:46:45,433 - __main__ - INFO - Scraping page 1/1
+2025-09-28 15:46:45,433 - __main__ - DEBUG - Sleeping for 2.88 seconds
+2025-09-28 15:46:48,317 - __main__ - DEBUG - Attempting to select elements: li.css-5lfssm
+2025-09-28 15:46:48,317 - __main__ - DEBUG - Select attempt 1/2
+2025-09-28 15:46:48,325 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 308}' [81 bytes]
+2025-09-28 15:46:48,325 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...AA7A99CB8D3B482C25B8"}}' [92 bytes]
+2025-09-28 15:46:48,326 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [369 bytes]
+2025-09-28 15:46:48,326 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...34C5FAD0B082BE17B901"}}' [92 bytes]
+2025-09-28 15:46:48,326 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [436 bytes]
+2025-09-28 15:46:48,327 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,327 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [530 bytes]
+2025-09-28 15:46:48,327 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,327 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...FD785D98216569B56AB4"}}' [92 bytes]
+2025-09-28 15:46:48,328 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,328 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,328 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...077ACAFF229239644A46"}}' [92 bytes]
+2025-09-28 15:46:48,328 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,328 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...F2B2E835941AFB13C1E8"}}' [92 bytes]
+2025-09-28 15:46:48,329 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:48,329 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...CD3F0A1547107A6C802C"}}' [92 bytes]
+2025-09-28 15:46:48,329 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...FBA0AA876383B8330024"}}' [92 bytes]
+2025-09-28 15:46:48,346 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 2 => <Tab [E419E154399EAA7A99CB8D3B482C25B8] [background_page] [url: chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html]>
+2025-09-28 15:46:48,347 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #1 has changed: 
+title: Job Search | Indeed => indeed.com/jobs?q=Python Developer&l=Remote&from=searchOnHP
+
+url: https://www.indeed.com/ => https://www.indeed.com/jobs?q=Python%20Developer&l=Remote&from=searchOnHP
+
+2025-09-28 15:46:48,347 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 0 => <Tab [74A2F619155B34C5FAD0B082BE17B901] [background_page] [url: chrome-extension://nmmhkkegccagdldgiimedpiccmgmieda/_generated_background_page.html]>
+2025-09-28 15:46:48,347 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #0 has changed: 
+title: indeed.com/jobs?q=Python Developer&l=Remote&from=searchOnHP => Flexible Python Developer Jobs – Apply Today to Work From Home in Remote (September 28, 2025) | Indeed
+
+url: https://www.indeed.com/jobs?q=Python%20Developer&l=Remote&from=searchOnHP => https://www.indeed.com/jobs?q=Python+Developer&l=Remote&from=searchOnHP&vjk=115780408e869013
+
+2025-09-28 15:46:48,348 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [AB6C22C5700ADC7A1A25ED048DB69E58] [iframe] >
+2025-09-28 15:46:48,348 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #3 has changed: 
+title:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rch/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/new/normal/auto
+
+url:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rch/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/new/normal/auto
+
+2025-09-28 15:46:48,349 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [4DE5AA311BAEFD785D98216569B56AB4] [worker] >
+2025-09-28 15:46:48,349 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [4DE5AA311BAEFD785D98216569B56AB4] [worker] >
+2025-09-28 15:46:48,349 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [A7C5DED58933FBA0AA876383B8330024] [worker] >
+2025-09-28 15:46:48,350 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #6 created => <Tab [E88EEA378E66077ACAFF229239644A46] [worker] >
+2025-09-28 15:46:48,350 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 5 => <Tab [E88EEA378E66077ACAFF229239644A46] [worker] >
+2025-09-28 15:46:48,350 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #6 created => <Tab [D3D7AB5FAD9AF2B2E835941AFB13C1E8] [worker] >
+2025-09-28 15:46:48,350 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 5 => <Tab [D3D7AB5FAD9AF2B2E835941AFB13C1E8] [worker] >
+2025-09-28 15:46:48,351 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #6 created => <Tab [E3DB352ED0B7CD3F0A1547107A6C802C] [worker] >
+2025-09-28 15:46:48,351 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 5 => <Tab [E3DB352ED0B7CD3F0A1547107A6C802C] [worker] >
+2025-09-28 15:46:48,351 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [A7C5DED58933FBA0AA876383B8330024] [worker] >
+2025-09-28 15:46:48,354 - websockets.client - DEBUG - < TEXT '{"id":308,"result":{"root":{"nodeId":1,"backend...,"isScrollable":true}}}' [990621 bytes]
+2025-09-28 15:46:48,459 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 309}' [99 bytes]
+2025-09-28 15:46:48,460 - websockets.client - DEBUG - < TEXT '{"id":309,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:48,464 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 310}' [105 bytes]
+2025-09-28 15:46:48,465 - websockets.client - DEBUG - < TEXT '{"id":310,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:48,568 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 311}' [81 bytes]
+2025-09-28 15:46:48,592 - websockets.client - DEBUG - < TEXT '{"id":311,"result":{"root":{"nodeId":3051,"back...,"isScrollable":true}}}' [993443 bytes]
+2025-09-28 15:46:48,626 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 312}' [102 bytes]
+2025-09-28 15:46:48,627 - websockets.client - DEBUG - < TEXT '{"id":312,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:48,631 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 313}' [105 bytes]
+2025-09-28 15:46:48,632 - websockets.client - DEBUG - < TEXT '{"id":313,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:48,757 - websockets.client - DEBUG - > PING 40 fa 3d f1 [binary, 4 bytes]
+2025-09-28 15:46:48,757 - websockets.client - DEBUG - % sent keepalive ping
+2025-09-28 15:46:48,758 - websockets.client - DEBUG - > PING ef 1a 43 e6 [binary, 4 bytes]
+2025-09-28 15:46:48,758 - websockets.client - DEBUG - % sent keepalive ping
+2025-09-28 15:46:48,758 - websockets.client - DEBUG - < PONG 40 fa 3d f1 [binary, 4 bytes]
+2025-09-28 15:46:48,759 - websockets.client - DEBUG - < PONG ef 1a 43 e6 [binary, 4 bytes]
+2025-09-28 15:46:48,759 - websockets.client - DEBUG - % received keepalive pong
+2025-09-28 15:46:48,759 - websockets.client - DEBUG - % received keepalive pong
+2025-09-28 15:46:49,138 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 314}' [105 bytes]
+2025-09-28 15:46:49,138 - websockets.client - DEBUG - < TEXT '{"id":314,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:49,249 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 315}' [81 bytes]
+2025-09-28 15:46:49,274 - websockets.client - DEBUG - < TEXT '{"id":315,"result":{"root":{"nodeId":6101,"back...,"isScrollable":true}}}' [993443 bytes]
+2025-09-28 15:46:49,309 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 316}' [102 bytes]
+2025-09-28 15:46:49,310 - websockets.client - DEBUG - < TEXT '{"id":316,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:49,313 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 317}' [105 bytes]
+2025-09-28 15:46:49,314 - websockets.client - DEBUG - < TEXT '{"id":317,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:49,802 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 318}' [105 bytes]
+2025-09-28 15:46:49,803 - websockets.client - DEBUG - < TEXT '{"id":318,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:49,913 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 319}' [81 bytes]
+2025-09-28 15:46:49,936 - websockets.client - DEBUG - < TEXT '{"id":319,"result":{"root":{"nodeId":9151,"back...,"isScrollable":true}}}' [997703 bytes]
+2025-09-28 15:46:49,971 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 320}' [102 bytes]
+2025-09-28 15:46:49,972 - websockets.client - DEBUG - < TEXT '{"id":320,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:49,976 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 321}' [105 bytes]
+2025-09-28 15:46:49,977 - websockets.client - DEBUG - < TEXT '{"id":321,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:50,486 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 322}' [105 bytes]
+2025-09-28 15:46:50,487 - websockets.client - DEBUG - < TEXT '{"id":322,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:50,597 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 323}' [81 bytes]
+2025-09-28 15:46:50,620 - websockets.client - DEBUG - < TEXT '{"id":323,"result":{"root":{"nodeId":12201,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:50,655 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 324}' [103 bytes]
+2025-09-28 15:46:50,656 - websockets.client - DEBUG - < TEXT '{"id":324,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:50,660 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 325}' [105 bytes]
+2025-09-28 15:46:50,660 - websockets.client - DEBUG - < TEXT '{"id":325,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:51,152 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 326}' [105 bytes]
+2025-09-28 15:46:51,153 - websockets.client - DEBUG - < TEXT '{"id":326,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:51,263 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 327}' [81 bytes]
+2025-09-28 15:46:51,286 - websockets.client - DEBUG - < TEXT '{"id":327,"result":{"root":{"nodeId":15251,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:51,351 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 328}' [103 bytes]
+2025-09-28 15:46:51,352 - websockets.client - DEBUG - < TEXT '{"id":328,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:51,356 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 329}' [105 bytes]
+2025-09-28 15:46:51,356 - websockets.client - DEBUG - < TEXT '{"id":329,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:51,863 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 330}' [105 bytes]
+2025-09-28 15:46:51,864 - websockets.client - DEBUG - < TEXT '{"id":330,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:51,974 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 331}' [81 bytes]
+2025-09-28 15:46:51,996 - websockets.client - DEBUG - < TEXT '{"id":331,"result":{"root":{"nodeId":18301,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:52,030 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 332}' [103 bytes]
+2025-09-28 15:46:52,031 - websockets.client - DEBUG - < TEXT '{"id":332,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:52,035 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 333}' [105 bytes]
+2025-09-28 15:46:52,035 - websockets.client - DEBUG - < TEXT '{"id":333,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:52,529 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 334}' [105 bytes]
+2025-09-28 15:46:52,530 - websockets.client - DEBUG - < TEXT '{"id":334,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:52,623 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 335}' [81 bytes]
+2025-09-28 15:46:52,647 - websockets.client - DEBUG - < TEXT '{"id":335,"result":{"root":{"nodeId":21351,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:52,682 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 336}' [103 bytes]
+2025-09-28 15:46:52,683 - websockets.client - DEBUG - < TEXT '{"id":336,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:52,687 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 337}' [105 bytes]
+2025-09-28 15:46:52,687 - websockets.client - DEBUG - < TEXT '{"id":337,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:53,178 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 338}' [105 bytes]
+2025-09-28 15:46:53,178 - websockets.client - DEBUG - < TEXT '{"id":338,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:53,288 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 339}' [81 bytes]
+2025-09-28 15:46:53,312 - websockets.client - DEBUG - < TEXT '{"id":339,"result":{"root":{"nodeId":24401,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:53,346 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 340}' [103 bytes]
+2025-09-28 15:46:53,347 - websockets.client - DEBUG - < TEXT '{"id":340,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:53,350 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 341}' [105 bytes]
+2025-09-28 15:46:53,351 - websockets.client - DEBUG - < TEXT '{"id":341,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:53,858 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 342}' [105 bytes]
+2025-09-28 15:46:53,859 - websockets.client - DEBUG - < TEXT '{"id":342,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:53,969 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 343}' [81 bytes]
+2025-09-28 15:46:53,993 - websockets.client - DEBUG - < TEXT '{"id":343,"result":{"root":{"nodeId":27451,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:54,059 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 344}' [103 bytes]
+2025-09-28 15:46:54,060 - websockets.client - DEBUG - < TEXT '{"id":344,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:54,064 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 345}' [105 bytes]
+2025-09-28 15:46:54,064 - websockets.client - DEBUG - < TEXT '{"id":345,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:54,557 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 346}' [105 bytes]
+2025-09-28 15:46:54,557 - websockets.client - DEBUG - < TEXT '{"id":346,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:54,668 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 347}' [81 bytes]
+2025-09-28 15:46:54,692 - websockets.client - DEBUG - < TEXT '{"id":347,"result":{"root":{"nodeId":30501,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:54,727 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 348}' [103 bytes]
+2025-09-28 15:46:54,728 - websockets.client - DEBUG - < TEXT '{"id":348,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:54,731 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 349}' [105 bytes]
+2025-09-28 15:46:54,732 - websockets.client - DEBUG - < TEXT '{"id":349,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:55,235 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 350}' [105 bytes]
+2025-09-28 15:46:55,236 - websockets.client - DEBUG - < TEXT '{"id":350,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:55,345 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 351}' [81 bytes]
+2025-09-28 15:46:55,368 - websockets.client - DEBUG - < TEXT '{"id":351,"result":{"root":{"nodeId":33551,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:55,403 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 352}' [103 bytes]
+2025-09-28 15:46:55,404 - websockets.client - DEBUG - < TEXT '{"id":352,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:55,407 - __main__ - WARNING - CDP selection failed: Time ran out while waiting for: {li.css-5lfssm}
+2025-09-28 15:46:55,408 - __main__ - DEBUG - Trying regular selenium selection
+2025-09-28 15:46:55,416 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 353}' [81 bytes]
+2025-09-28 15:46:55,439 - websockets.client - DEBUG - < TEXT '{"id":353,"result":{"root":{"nodeId":36601,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:55,474 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 354}' [103 bytes]
+2025-09-28 15:46:55,475 - websockets.client - DEBUG - < TEXT '{"id":354,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:55,479 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 355}' [105 bytes]
+2025-09-28 15:46:55,479 - websockets.client - DEBUG - < TEXT '{"id":355,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:55,599 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 356}' [81 bytes]
+2025-09-28 15:46:55,622 - websockets.client - DEBUG - < TEXT '{"id":356,"result":{"root":{"nodeId":39651,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:55,657 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 357}' [103 bytes]
+2025-09-28 15:46:55,658 - websockets.client - DEBUG - < TEXT '{"id":357,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:55,662 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 358}' [105 bytes]
+2025-09-28 15:46:55,663 - websockets.client - DEBUG - < TEXT '{"id":358,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:56,168 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 359}' [105 bytes]
+2025-09-28 15:46:56,169 - websockets.client - DEBUG - < TEXT '{"id":359,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:56,169 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...EA6E5C8D10C5F248EA0D"}}' [92 bytes]
+2025-09-28 15:46:56,169 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 1 => <Tab [F9DE64121085EA6E5C8D10C5F248EA0D] [service_worker] [url: chrome-extension://fignfifoniblkonapihmkfakmlgkbkcf/service_worker.js]>
+2025-09-28 15:46:56,280 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 360}' [81 bytes]
+2025-09-28 15:46:56,304 - websockets.client - DEBUG - < TEXT '{"id":360,"result":{"root":{"nodeId":42701,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:56,370 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 361}' [103 bytes]
+2025-09-28 15:46:56,371 - websockets.client - DEBUG - < TEXT '{"id":361,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:56,376 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 362}' [105 bytes]
+2025-09-28 15:46:56,376 - websockets.client - DEBUG - < TEXT '{"id":362,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:56,866 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 363}' [105 bytes]
+2025-09-28 15:46:56,867 - websockets.client - DEBUG - < TEXT '{"id":363,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:56,976 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 364}' [81 bytes]
+2025-09-28 15:46:56,998 - websockets.client - DEBUG - < TEXT '{"id":364,"result":{"root":{"nodeId":45751,"bac...,"isScrollable":true}}}' [999431 bytes]
+2025-09-28 15:46:57,032 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 365}' [103 bytes]
+2025-09-28 15:46:57,034 - websockets.client - DEBUG - < TEXT '{"id":365,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:57,038 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 366}' [105 bytes]
+2025-09-28 15:46:57,038 - websockets.client - DEBUG - < TEXT '{"id":366,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:57,263 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...DC7A1A25ED048DB69E58"}}' [92 bytes]
+2025-09-28 15:46:57,264 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 2 => <Tab [AB6C22C5700ADC7A1A25ED048DB69E58] [iframe] [url: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rch/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/new/normal/auto]>
+2025-09-28 15:46:57,266 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:48746,"nodeId":48747}}' [80 bytes]
+2025-09-28 15:46:57,267 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...isibility: hidden;"]}}}' [845 bytes]
+2025-09-28 15:46:57,293 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:57,294 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #3 created => <Tab [588137E6648B50B12A47B60E8FF39BB6] [iframe] >
+2025-09-28 15:46:57,296 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [762 bytes]
+2025-09-28 15:46:57,296 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #2 has changed: 
+title:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rchOZVQSIAVFjJiLeIcUzJ5Pic2YVlkYVCGerVbw4ypiX4-1759052805-1.3.1.1-P12jijWoY8bAstBYBlthWIkBuw_SUBzHrLEUyqLQeag/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/failure_retry/normal/auto
+
+url:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rchOZVQSIAVFjJiLeIcUzJ5Pic2YVlkYVCGerVbw4ypiX4-1759052805-1.3.1.1-P12jijWoY8bAstBYBlthWIkBuw_SUBzHrLEUyqLQeag/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/failure_retry/normal/auto
+
+2025-09-28 15:46:57,297 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...:48746,"nodeId":48801}}' [80 bytes]
+2025-09-28 15:46:57,297 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...0B12A47B60E8FF39BB6"}}}' [890 bytes]
+2025-09-28 15:46:57,354 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:57,354 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [F73D1F227015A73FF965A7EE87CA330C] [worker] >
+2025-09-28 15:46:57,371 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...A73FF965A7EE87CA330C"}}' [92 bytes]
+2025-09-28 15:46:57,372 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 3 => <Tab [F73D1F227015A73FF965A7EE87CA330C] [worker] >
+2025-09-28 15:46:57,548 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 371}' [105 bytes]
+2025-09-28 15:46:57,549 - websockets.client - DEBUG - < TEXT '{"id":371,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:57,656 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 372}' [81 bytes]
+2025-09-28 15:46:57,679 - websockets.client - DEBUG - < TEXT '{"id":372,"result":{"root":{"nodeId":48803,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:46:57,717 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 373}' [103 bytes]
+2025-09-28 15:46:57,718 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:57,718 - websockets.client - DEBUG - < TEXT '{"id":373,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:57,720 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [B80068BC642A69821923B9FC9311366C] [worker] >
+2025-09-28 15:46:57,724 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 374}' [105 bytes]
+2025-09-28 15:46:57,725 - websockets.client - DEBUG - < TEXT '{"id":374,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:57,896 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:57,897 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [3D13A2DF8901B473FF506B2F7C9C49A2] [worker] >
+2025-09-28 15:46:57,903 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...B473FF506B2F7C9C49A2"}}' [92 bytes]
+2025-09-28 15:46:57,904 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [3D13A2DF8901B473FF506B2F7C9C49A2] [worker] >
+2025-09-28 15:46:58,242 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 375}' [105 bytes]
+2025-09-28 15:46:58,243 - websockets.client - DEBUG - < TEXT '{"id":375,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:58,273 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:58,277 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...B935BFE67B0A878C8240"}}' [92 bytes]
+2025-09-28 15:46:58,278 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [CA0F3D1C8F31B935BFE67B0A878C8240] [worker] >
+2025-09-28 15:46:58,278 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [CA0F3D1C8F31B935BFE67B0A878C8240] [worker] >
+2025-09-28 15:46:58,354 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 376}' [81 bytes]
+2025-09-28 15:46:58,379 - websockets.client - DEBUG - < TEXT '{"id":376,"result":{"root":{"nodeId":51853,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:46:58,414 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 377}' [103 bytes]
+2025-09-28 15:46:58,415 - websockets.client - DEBUG - < TEXT '{"id":377,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:58,420 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 378}' [105 bytes]
+2025-09-28 15:46:58,420 - websockets.client - DEBUG - < TEXT '{"id":378,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:58,912 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 379}' [105 bytes]
+2025-09-28 15:46:58,913 - websockets.client - DEBUG - < TEXT '{"id":379,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:58,951 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:46:58,952 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [E1DD721D558BDDB04FE864EE455E577B] [worker] >
+2025-09-28 15:46:58,961 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...DDB04FE864EE455E577B"}}' [92 bytes]
+2025-09-28 15:46:58,962 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [E1DD721D558BDDB04FE864EE455E577B] [worker] >
+2025-09-28 15:46:59,023 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 380}' [81 bytes]
+2025-09-28 15:46:59,048 - websockets.client - DEBUG - < TEXT '{"id":380,"result":{"root":{"nodeId":54903,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:46:59,088 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...69821923B9FC9311366C"}}' [92 bytes]
+2025-09-28 15:46:59,089 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 381}' [103 bytes]
+2025-09-28 15:46:59,090 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 3 => <Tab [B80068BC642A69821923B9FC9311366C] [worker] >
+2025-09-28 15:46:59,091 - websockets.client - DEBUG - < TEXT '{"id":381,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:59,097 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 382}' [105 bytes]
+2025-09-28 15:46:59,099 - websockets.client - DEBUG - < TEXT '{"id":382,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:59,606 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 383}' [105 bytes]
+2025-09-28 15:46:59,606 - websockets.client - DEBUG - < TEXT '{"id":383,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:46:59,717 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 384}' [81 bytes]
+2025-09-28 15:46:59,741 - websockets.client - DEBUG - < TEXT '{"id":384,"result":{"root":{"nodeId":57953,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:46:59,806 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 385}' [103 bytes]
+2025-09-28 15:46:59,807 - websockets.client - DEBUG - < TEXT '{"id":385,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:46:59,810 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 386}' [105 bytes]
+2025-09-28 15:46:59,810 - websockets.client - DEBUG - < TEXT '{"id":386,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:00,303 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 387}' [105 bytes]
+2025-09-28 15:47:00,304 - websockets.client - DEBUG - < TEXT '{"id":387,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:00,413 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 388}' [81 bytes]
+2025-09-28 15:47:00,436 - websockets.client - DEBUG - < TEXT '{"id":388,"result":{"root":{"nodeId":61003,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:00,472 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 389}' [103 bytes]
+2025-09-28 15:47:00,473 - websockets.client - DEBUG - < TEXT '{"id":389,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:00,477 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 390}' [105 bytes]
+2025-09-28 15:47:00,478 - websockets.client - DEBUG - < TEXT '{"id":390,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:00,984 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 391}' [105 bytes]
+2025-09-28 15:47:00,984 - websockets.client - DEBUG - < TEXT '{"id":391,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:01,093 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 392}' [81 bytes]
+2025-09-28 15:47:01,115 - websockets.client - DEBUG - < TEXT '{"id":392,"result":{"root":{"nodeId":64053,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:01,149 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 393}' [103 bytes]
+2025-09-28 15:47:01,150 - websockets.client - DEBUG - < TEXT '{"id":393,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:01,154 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 394}' [105 bytes]
+2025-09-28 15:47:01,155 - websockets.client - DEBUG - < TEXT '{"id":394,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:01,653 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 395}' [105 bytes]
+2025-09-28 15:47:01,654 - websockets.client - DEBUG - < TEXT '{"id":395,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:01,764 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 396}' [81 bytes]
+2025-09-28 15:47:01,787 - websockets.client - DEBUG - < TEXT '{"id":396,"result":{"root":{"nodeId":67103,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:01,821 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 397}' [103 bytes]
+2025-09-28 15:47:01,823 - websockets.client - DEBUG - < TEXT '{"id":397,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:01,827 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 398}' [105 bytes]
+2025-09-28 15:47:01,828 - websockets.client - DEBUG - < TEXT '{"id":398,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:02,320 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 399}' [105 bytes]
+2025-09-28 15:47:02,321 - websockets.client - DEBUG - < TEXT '{"id":399,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:02,432 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 400}' [81 bytes]
+2025-09-28 15:47:02,455 - websockets.client - DEBUG - < TEXT '{"id":400,"result":{"root":{"nodeId":70153,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:02,526 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 401}' [103 bytes]
+2025-09-28 15:47:02,527 - websockets.client - DEBUG - < TEXT '{"id":401,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:02,531 - __main__ - WARNING - Selenium selection failed: Time ran out while waiting for: {li.css-5lfssm}
+2025-09-28 15:47:02,532 - __main__ - DEBUG - Select attempt 2/2
+2025-09-28 15:47:02,540 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 402}' [81 bytes]
+2025-09-28 15:47:02,563 - websockets.client - DEBUG - < TEXT '{"id":402,"result":{"root":{"nodeId":73203,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:02,598 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 403}' [103 bytes]
+2025-09-28 15:47:02,599 - websockets.client - DEBUG - < TEXT '{"id":403,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:02,603 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 404}' [105 bytes]
+2025-09-28 15:47:02,604 - websockets.client - DEBUG - < TEXT '{"id":404,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:02,719 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 405}' [81 bytes]
+2025-09-28 15:47:02,743 - websockets.client - DEBUG - < TEXT '{"id":405,"result":{"root":{"nodeId":76253,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:02,777 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 406}' [103 bytes]
+2025-09-28 15:47:02,778 - websockets.client - DEBUG - < TEXT '{"id":406,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:02,782 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 407}' [105 bytes]
+2025-09-28 15:47:02,783 - websockets.client - DEBUG - < TEXT '{"id":407,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:03,270 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 408}' [105 bytes]
+2025-09-28 15:47:03,271 - websockets.client - DEBUG - < TEXT '{"id":408,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:03,365 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 409}' [81 bytes]
+2025-09-28 15:47:03,389 - websockets.client - DEBUG - < TEXT '{"id":409,"result":{"root":{"nodeId":79303,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:03,424 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 410}' [103 bytes]
+2025-09-28 15:47:03,425 - websockets.client - DEBUG - < TEXT '{"id":410,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:03,429 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 411}' [105 bytes]
+2025-09-28 15:47:03,430 - websockets.client - DEBUG - < TEXT '{"id":411,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:03,951 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 412}' [105 bytes]
+2025-09-28 15:47:03,952 - websockets.client - DEBUG - < TEXT '{"id":412,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:04,062 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 413}' [81 bytes]
+2025-09-28 15:47:04,085 - websockets.client - DEBUG - < TEXT '{"id":413,"result":{"root":{"nodeId":82353,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:04,121 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 414}' [103 bytes]
+2025-09-28 15:47:04,122 - websockets.client - DEBUG - < TEXT '{"id":414,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:04,127 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 415}' [105 bytes]
+2025-09-28 15:47:04,127 - websockets.client - DEBUG - < TEXT '{"id":415,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:04,615 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 416}' [105 bytes]
+2025-09-28 15:47:04,616 - websockets.client - DEBUG - < TEXT '{"id":416,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:04,724 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 417}' [81 bytes]
+2025-09-28 15:47:04,747 - websockets.client - DEBUG - < TEXT '{"id":417,"result":{"root":{"nodeId":85403,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:04,812 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 418}' [103 bytes]
+2025-09-28 15:47:04,813 - websockets.client - DEBUG - < TEXT '{"id":418,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:04,817 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 419}' [105 bytes]
+2025-09-28 15:47:04,818 - websockets.client - DEBUG - < TEXT '{"id":419,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:05,312 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 420}' [105 bytes]
+2025-09-28 15:47:05,313 - websockets.client - DEBUG - < TEXT '{"id":420,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:05,421 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 421}' [81 bytes]
+2025-09-28 15:47:05,444 - websockets.client - DEBUG - < TEXT '{"id":421,"result":{"root":{"nodeId":88453,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:05,478 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 422}' [103 bytes]
+2025-09-28 15:47:05,480 - websockets.client - DEBUG - < TEXT '{"id":422,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:05,484 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 423}' [105 bytes]
+2025-09-28 15:47:05,484 - websockets.client - DEBUG - < TEXT '{"id":423,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:05,975 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 424}' [105 bytes]
+2025-09-28 15:47:05,976 - websockets.client - DEBUG - < TEXT '{"id":424,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:06,085 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 425}' [81 bytes]
+2025-09-28 15:47:06,108 - websockets.client - DEBUG - < TEXT '{"id":425,"result":{"root":{"nodeId":91503,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:06,143 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 426}' [103 bytes]
+2025-09-28 15:47:06,144 - websockets.client - DEBUG - < TEXT '{"id":426,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:06,148 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 427}' [105 bytes]
+2025-09-28 15:47:06,148 - websockets.client - DEBUG - < TEXT '{"id":427,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:06,638 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 428}' [105 bytes]
+2025-09-28 15:47:06,638 - websockets.client - DEBUG - < TEXT '{"id":428,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:06,750 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 429}' [81 bytes]
+2025-09-28 15:47:06,773 - websockets.client - DEBUG - < TEXT '{"id":429,"result":{"root":{"nodeId":94553,"bac...,"isScrollable":true}}}' [999547 bytes]
+2025-09-28 15:47:06,807 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 430}' [103 bytes]
+2025-09-28 15:47:06,808 - websockets.client - DEBUG - < TEXT '{"id":430,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:06,812 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 431}' [105 bytes]
+2025-09-28 15:47:06,812 - websockets.client - DEBUG - < TEXT '{"id":431,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:07,307 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 432}' [105 bytes]
+2025-09-28 15:47:07,308 - websockets.client - DEBUG - < TEXT '{"id":432,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:07,418 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 433}' [81 bytes]
+2025-09-28 15:47:07,441 - websockets.client - DEBUG - < TEXT '{"id":433,"result":{"root":{"nodeId":97603,"bac...,"isScrollable":true}}}' [1000772 bytes]
+2025-09-28 15:47:07,508 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 434}' [103 bytes]
+2025-09-28 15:47:07,509 - websockets.client - DEBUG - < TEXT '{"id":434,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:07,514 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 435}' [105 bytes]
+2025-09-28 15:47:07,514 - websockets.client - DEBUG - < TEXT '{"id":435,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:08,006 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 436}' [105 bytes]
+2025-09-28 15:47:08,007 - websockets.client - DEBUG - < TEXT '{"id":436,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:08,117 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 437}' [81 bytes]
+2025-09-28 15:47:08,140 - websockets.client - DEBUG - < TEXT '{"id":437,"result":{"root":{"nodeId":100653,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:08,174 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 438}' [104 bytes]
+2025-09-28 15:47:08,175 - websockets.client - DEBUG - < TEXT '{"id":438,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:08,179 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 439}' [105 bytes]
+2025-09-28 15:47:08,180 - websockets.client - DEBUG - < TEXT '{"id":439,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:08,685 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 440}' [105 bytes]
+2025-09-28 15:47:08,685 - websockets.client - DEBUG - < TEXT '{"id":440,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:08,764 - websockets.client - DEBUG - > PING ee 0a ec 5b [binary, 4 bytes]
+2025-09-28 15:47:08,764 - websockets.client - DEBUG - % sent keepalive ping
+2025-09-28 15:47:08,765 - websockets.client - DEBUG - > PING 84 37 bf 75 [binary, 4 bytes]
+2025-09-28 15:47:08,765 - websockets.client - DEBUG - % sent keepalive ping
+2025-09-28 15:47:08,765 - websockets.client - DEBUG - < PONG ee 0a ec 5b [binary, 4 bytes]
+2025-09-28 15:47:08,765 - websockets.client - DEBUG - < PONG 84 37 bf 75 [binary, 4 bytes]
+2025-09-28 15:47:08,766 - websockets.client - DEBUG - % received keepalive pong
+2025-09-28 15:47:08,766 - websockets.client - DEBUG - % received keepalive pong
+2025-09-28 15:47:08,795 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 441}' [81 bytes]
+2025-09-28 15:47:08,818 - websockets.client - DEBUG - < TEXT '{"id":441,"result":{"root":{"nodeId":103703,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:08,852 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 442}' [104 bytes]
+2025-09-28 15:47:08,854 - websockets.client - DEBUG - < TEXT '{"id":442,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:08,856 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 443}' [105 bytes]
+2025-09-28 15:47:08,857 - websockets.client - DEBUG - < TEXT '{"id":443,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:09,351 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 444}' [105 bytes]
+2025-09-28 15:47:09,352 - websockets.client - DEBUG - < TEXT '{"id":444,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:09,462 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 445}' [81 bytes]
+2025-09-28 15:47:09,487 - websockets.client - DEBUG - < TEXT '{"id":445,"result":{"root":{"nodeId":106753,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:09,496 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...50B12A47B60E8FF39BB6"}}' [92 bytes]
+2025-09-28 15:47:09,496 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...09748,"nodeId":109749}}' [82 bytes]
+2025-09-28 15:47:09,525 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 2 => <Tab [588137E6648B50B12A47B60E8FF39BB6] [iframe] [url: https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rchOZVQSIAVFjJiLeIcUzJ5Pic2YVlkYVCGerVbw4ypiX4-1759052805-1.3.1.1-P12jijWoY8bAstBYBlthWIkBuw_SUBzHrLEUyqLQeag/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/failure_retry/normal/auto]>
+2025-09-28 15:47:09,525 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...isibility: hidden;"]}}}' [847 bytes]
+2025-09-28 15:47:09,526 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 447}' [104 bytes]
+2025-09-28 15:47:09,526 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:09,527 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeRemoved","params":{"par...09748,"nodeId":109803}}' [82 bytes]
+2025-09-28 15:47:09,527 - websockets.client - DEBUG - < TEXT '{"method":"DOM.childNodeInserted","params":{"pa...B8EE43635DBBE45D623"}}}' [892 bytes]
+2025-09-28 15:47:09,527 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [762 bytes]
+2025-09-28 15:47:09,528 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #3 created => <Tab [DC4F0AC1BB394B8EE43635DBBE45D623] [iframe] >
+2025-09-28 15:47:09,528 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #2 has changed: 
+title:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rchQfVZW598Ak4Altq7tVBffhWVndWvLoweq15Mf0zgETg-1759052818-1.3.1.1-YaIm.EDFQtDCW4LjwBBbFGK6ZMjLtw8OqKRuDQVzttU/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/failure_retry/normal/auto
+
+url:  => https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rchQfVZW598Ak4Altq7tVBffhWVndWvLoweq15Mf0zgETg-1759052818-1.3.1.1-YaIm.EDFQtDCW4LjwBBbFGK6ZMjLtw8OqKRuDQVzttU/usqf7/0x4AAAAAAAxcdCS90IQZX-oi/auto/fbE/failure_retry/normal/auto
+
+2025-09-28 15:47:09,528 - websockets.client - DEBUG - < TEXT '{"id":447,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:09,531 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 451}' [105 bytes]
+2025-09-28 15:47:09,532 - websockets.client - DEBUG - < TEXT '{"id":451,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:09,610 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:09,610 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [BE596E2A25EF8BEB6D6F6303FCFC1C2C] [worker] >
+2025-09-28 15:47:09,629 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...8BEB6D6F6303FCFC1C2C"}}' [92 bytes]
+2025-09-28 15:47:09,630 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 3 => <Tab [BE596E2A25EF8BEB6D6F6303FCFC1C2C] [worker] >
+2025-09-28 15:47:09,974 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:09,999 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #4 created => <Tab [38E87B574738DFAE812D411923AACAA8] [worker] >
+2025-09-28 15:47:10,045 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 452}' [105 bytes]
+2025-09-28 15:47:10,046 - websockets.client - DEBUG - < TEXT '{"id":452,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:10,097 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,103 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...94DA0E5C67A4A58D51C4"}}' [92 bytes]
+2025-09-28 15:47:10,103 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [8F8F31D2718994DA0E5C67A4A58D51C4] [worker] >
+2025-09-28 15:47:10,104 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [8F8F31D2718994DA0E5C67A4A58D51C4] [worker] >
+2025-09-28 15:47:10,156 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 453}' [81 bytes]
+2025-09-28 15:47:10,178 - websockets.client - DEBUG - < TEXT '{"id":453,"result":{"root":{"nodeId":109805,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:10,213 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 454}' [104 bytes]
+2025-09-28 15:47:10,215 - websockets.client - DEBUG - < TEXT '{"id":454,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:10,218 - __main__ - WARNING - CDP selection failed: Time ran out while waiting for: {li.css-5lfssm}
+2025-09-28 15:47:10,218 - __main__ - DEBUG - Trying regular selenium selection
+2025-09-28 15:47:10,226 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 455}' [81 bytes]
+2025-09-28 15:47:10,249 - websockets.client - DEBUG - < TEXT '{"id":455,"result":{"root":{"nodeId":112855,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:10,324 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 456}' [104 bytes]
+2025-09-28 15:47:10,327 - websockets.client - DEBUG - < TEXT '{"id":456,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:10,330 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 457}' [105 bytes]
+2025-09-28 15:47:10,332 - websockets.client - DEBUG - < TEXT '{"id":457,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:10,347 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,348 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [26238560EEC5E4EADC2DE9FECA6F37B3] [worker] >
+2025-09-28 15:47:10,358 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...E4EADC2DE9FECA6F37B3"}}' [92 bytes]
+2025-09-28 15:47:10,359 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [26238560EEC5E4EADC2DE9FECA6F37B3] [worker] >
+2025-09-28 15:47:10,419 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,420 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [CF6F926192AF2AF7945D4533559B1C97] [worker] >
+2025-09-28 15:47:10,420 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 458}' [81 bytes]
+2025-09-28 15:47:10,424 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...2AF7945D4533559B1C97"}}' [92 bytes]
+2025-09-28 15:47:10,424 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [CF6F926192AF2AF7945D4533559B1C97] [worker] >
+2025-09-28 15:47:10,445 - websockets.client - DEBUG - < TEXT '{"id":458,"result":{"root":{"nodeId":115905,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:10,481 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 459}' [104 bytes]
+2025-09-28 15:47:10,483 - websockets.client - DEBUG - < TEXT '{"id":459,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:10,487 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 460}' [105 bytes]
+2025-09-28 15:47:10,487 - websockets.client - DEBUG - < TEXT '{"id":460,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:10,713 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,714 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #5 created => <Tab [535733D84B59620C7E8EF1C91AE32C46] [worker] >
+2025-09-28 15:47:10,714 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,715 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,715 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,715 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetCreated","params":{"tar...9DB9513827E6B1E5F2B"}}}' [236 bytes]
+2025-09-28 15:47:10,715 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #6 created => <Tab [9E01DC06631F76DF6EA16BE5994B3565] [worker] >
+2025-09-28 15:47:10,716 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #7 created => <Tab [85AFA7076C5BCEF5185C3E4348F81341] [worker] >
+2025-09-28 15:47:10,716 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #8 created => <Tab [BBABEA26CAA76AE67AE73AC054E8903E] [worker] >
+2025-09-28 15:47:10,717 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target #9 created => <Tab [A55691D72118279753221F31BE9E2D8A] [worker] >
+2025-09-28 15:47:10,732 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...76DF6EA16BE5994B3565"}}' [92 bytes]
+2025-09-28 15:47:10,734 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...6AE67AE73AC054E8903E"}}' [92 bytes]
+2025-09-28 15:47:10,735 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 5 => <Tab [9E01DC06631F76DF6EA16BE5994B3565] [worker] >
+2025-09-28 15:47:10,736 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 6 => <Tab [BBABEA26CAA76AE67AE73AC054E8903E] [worker] >
+2025-09-28 15:47:10,736 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...620C7E8EF1C91AE32C46"}}' [92 bytes]
+2025-09-28 15:47:10,736 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...CEF5185C3E4348F81341"}}' [92 bytes]
+2025-09-28 15:47:10,737 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...279753221F31BE9E2D8A"}}' [92 bytes]
+2025-09-28 15:47:10,737 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [535733D84B59620C7E8EF1C91AE32C46] [worker] >
+2025-09-28 15:47:10,737 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [85AFA7076C5BCEF5185C3E4348F81341] [worker] >
+2025-09-28 15:47:10,737 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 4 => <Tab [A55691D72118279753221F31BE9E2D8A] [worker] >
+2025-09-28 15:47:10,979 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 461}' [105 bytes]
+2025-09-28 15:47:10,980 - websockets.client - DEBUG - < TEXT '{"id":461,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:11,091 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 462}' [81 bytes]
+2025-09-28 15:47:11,116 - websockets.client - DEBUG - < TEXT '{"id":462,"result":{"root":{"nodeId":118955,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:11,152 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 463}' [104 bytes]
+2025-09-28 15:47:11,154 - websockets.client - DEBUG - < TEXT '{"id":463,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:11,158 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 464}' [105 bytes]
+2025-09-28 15:47:11,160 - websockets.client - DEBUG - < TEXT '{"id":464,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:11,367 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetDestroyed","params":{"t...DFAE812D411923AACAA8"}}' [92 bytes]
+2025-09-28 15:47:11,367 - seleniumbase.undetected.cdp_driver.browser - DEBUG - Target removed. id # 3 => <Tab [38E87B574738DFAE812D411923AACAA8] [worker] >
+2025-09-28 15:47:11,681 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 465}' [105 bytes]
+2025-09-28 15:47:11,682 - websockets.client - DEBUG - < TEXT '{"id":465,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:11,787 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 466}' [81 bytes]
+2025-09-28 15:47:11,810 - websockets.client - DEBUG - < TEXT '{"id":466,"result":{"root":{"nodeId":122005,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:11,845 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 467}' [104 bytes]
+2025-09-28 15:47:11,846 - websockets.client - DEBUG - < TEXT '{"id":467,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:11,849 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 468}' [105 bytes]
+2025-09-28 15:47:11,850 - websockets.client - DEBUG - < TEXT '{"id":468,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:12,370 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 469}' [105 bytes]
+2025-09-28 15:47:12,371 - websockets.client - DEBUG - < TEXT '{"id":469,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:12,466 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 470}' [81 bytes]
+2025-09-28 15:47:12,490 - websockets.client - DEBUG - < TEXT '{"id":470,"result":{"root":{"nodeId":125055,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:12,525 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 471}' [104 bytes]
+2025-09-28 15:47:12,526 - websockets.client - DEBUG - < TEXT '{"id":471,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:12,530 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 472}' [105 bytes]
+2025-09-28 15:47:12,531 - websockets.client - DEBUG - < TEXT '{"id":472,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:13,021 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 473}' [105 bytes]
+2025-09-28 15:47:13,033 - websockets.client - DEBUG - < TEXT '{"id":473,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:13,115 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 474}' [81 bytes]
+2025-09-28 15:47:13,146 - websockets.client - DEBUG - < TEXT '{"id":474,"result":{"root":{"nodeId":128105,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:13,228 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 475}' [104 bytes]
+2025-09-28 15:47:13,229 - websockets.client - DEBUG - < TEXT '{"id":475,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:13,234 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 476}' [105 bytes]
+2025-09-28 15:47:13,235 - websockets.client - DEBUG - < TEXT '{"id":476,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:13,732 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 477}' [105 bytes]
+2025-09-28 15:47:13,733 - websockets.client - DEBUG - < TEXT '{"id":477,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:13,843 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 478}' [81 bytes]
+2025-09-28 15:47:13,867 - websockets.client - DEBUG - < TEXT '{"id":478,"result":{"root":{"nodeId":131155,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:13,902 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 479}' [104 bytes]
+2025-09-28 15:47:13,903 - websockets.client - DEBUG - < TEXT '{"id":479,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:13,907 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 480}' [105 bytes]
+2025-09-28 15:47:13,908 - websockets.client - DEBUG - < TEXT '{"id":480,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:14,393 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 481}' [105 bytes]
+2025-09-28 15:47:14,394 - websockets.client - DEBUG - < TEXT '{"id":481,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:14,505 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 482}' [81 bytes]
+2025-09-28 15:47:14,530 - websockets.client - DEBUG - < TEXT '{"id":482,"result":{"root":{"nodeId":134205,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:14,566 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 483}' [104 bytes]
+2025-09-28 15:47:14,567 - websockets.client - DEBUG - < TEXT '{"id":483,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:14,571 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 484}' [105 bytes]
+2025-09-28 15:47:14,572 - websockets.client - DEBUG - < TEXT '{"id":484,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:15,056 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 485}' [105 bytes]
+2025-09-28 15:47:15,057 - websockets.client - DEBUG - < TEXT '{"id":485,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:15,167 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 486}' [81 bytes]
+2025-09-28 15:47:15,191 - websockets.client - DEBUG - < TEXT '{"id":486,"result":{"root":{"nodeId":137255,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:15,226 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 487}' [104 bytes]
+2025-09-28 15:47:15,227 - websockets.client - DEBUG - < TEXT '{"id":487,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:15,231 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 488}' [105 bytes]
+2025-09-28 15:47:15,232 - websockets.client - DEBUG - < TEXT '{"id":488,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:15,738 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 489}' [105 bytes]
+2025-09-28 15:47:15,739 - websockets.client - DEBUG - < TEXT '{"id":489,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:15,848 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 490}' [81 bytes]
+2025-09-28 15:47:15,872 - websockets.client - DEBUG - < TEXT '{"id":490,"result":{"root":{"nodeId":140305,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:15,937 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 491}' [104 bytes]
+2025-09-28 15:47:15,938 - websockets.client - DEBUG - < TEXT '{"id":491,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:15,942 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 492}' [105 bytes]
+2025-09-28 15:47:15,943 - websockets.client - DEBUG - < TEXT '{"id":492,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:16,435 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 493}' [105 bytes]
+2025-09-28 15:47:16,436 - websockets.client - DEBUG - < TEXT '{"id":493,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:16,546 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 494}' [81 bytes]
+2025-09-28 15:47:16,570 - websockets.client - DEBUG - < TEXT '{"id":494,"result":{"root":{"nodeId":143355,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:16,605 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 495}' [104 bytes]
+2025-09-28 15:47:16,606 - websockets.client - DEBUG - < TEXT '{"id":495,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:16,611 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 496}' [105 bytes]
+2025-09-28 15:47:16,612 - websockets.client - DEBUG - < TEXT '{"id":496,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:17,099 - websockets.client - DEBUG - > TEXT '{"method": "Target.getTargetInfo", "params": {"...CB45FAF31"}, "id": 497}' [105 bytes]
+2025-09-28 15:47:17,100 - websockets.client - DEBUG - < TEXT '{"id":497,"result":{"targetInfo":{"targetId":"A...9DB9513827E6B1E5F2B"}}}' [409 bytes]
+2025-09-28 15:47:17,222 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 498}' [81 bytes]
+2025-09-28 15:47:17,246 - websockets.client - DEBUG - < TEXT '{"id":498,"result":{"root":{"nodeId":146405,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:17,282 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...ss-5lfssm"}, "id": 499}' [104 bytes]
+2025-09-28 15:47:17,283 - websockets.client - DEBUG - < TEXT '{"id":499,"result":{"nodeIds":[]}}' [34 bytes]
+2025-09-28 15:47:17,286 - __main__ - WARNING - Selenium selection failed: Time ran out while waiting for: {li.css-5lfssm}
+2025-09-28 15:47:17,287 - __main__ - DEBUG - Attempting to select elements: div.job_seen_beacon
+2025-09-28 15:47:17,287 - __main__ - DEBUG - Select attempt 1/2
+2025-09-28 15:47:17,295 - websockets.client - DEBUG - > TEXT '{"method": "DOM.getDocument", "params": {"depth...rce": true}, "id": 500}' [81 bytes]
+2025-09-28 15:47:17,320 - websockets.client - DEBUG - < TEXT '{"id":500,"result":{"root":{"nodeId":149455,"ba...,"isScrollable":true}}}' [1005535 bytes]
+2025-09-28 15:47:17,357 - websockets.client - DEBUG - > TEXT '{"method": "DOM.querySelectorAll", "params": {"...en_beacon"}, "id": 501}' [110 bytes]
+2025-09-28 15:47:17,358 - websockets.client - DEBUG - < TEXT '{"id":501,"result":{"nodeIds":[150700,150770,15...151681,151751,151822]}}' [145 bytes]
+2025-09-28 15:47:17,371 - __main__ - INFO - CDP: Found 16 elements with: div.job_seen_beacon
+2025-09-28 15:47:17,371 - __main__ - INFO - Found 16 elements with div.job_seen_beacon
+2025-09-28 15:47:17,371 - __main__ - DEBUG - Extracting job data for item 1
+2025-09-28 15:47:17,371 - __main__ - WARNING - Job 1 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,372 - __main__ - DEBUG - Extracting job data for item 2
+2025-09-28 15:47:17,372 - __main__ - WARNING - Job 2 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,372 - __main__ - DEBUG - Extracting job data for item 3
+2025-09-28 15:47:17,373 - __main__ - WARNING - Job 3 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,374 - __main__ - DEBUG - Extracting job data for item 4
+2025-09-28 15:47:17,374 - __main__ - WARNING - Job 4 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,374 - __main__ - DEBUG - Extracting job data for item 5
+2025-09-28 15:47:17,374 - __main__ - WARNING - Job 5 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,375 - __main__ - DEBUG - Extracting job data for item 6
+2025-09-28 15:47:17,375 - __main__ - WARNING - Job 6 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,375 - __main__ - DEBUG - Extracting job data for item 7
+2025-09-28 15:47:17,375 - __main__ - WARNING - Job 7 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,375 - __main__ - DEBUG - Extracting job data for item 8
+2025-09-28 15:47:17,376 - __main__ - WARNING - Job 8 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,376 - __main__ - DEBUG - Extracting job data for item 9
+2025-09-28 15:47:17,376 - __main__ - WARNING - Job 9 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,376 - __main__ - DEBUG - Extracting job data for item 10
+2025-09-28 15:47:17,376 - __main__ - WARNING - Job 10 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,377 - __main__ - DEBUG - Extracting job data for item 11
+2025-09-28 15:47:17,377 - __main__ - WARNING - Job 11 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,377 - __main__ - DEBUG - Extracting job data for item 12
+2025-09-28 15:47:17,377 - __main__ - WARNING - Job 12 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,377 - __main__ - DEBUG - Extracting job data for item 13
+2025-09-28 15:47:17,378 - __main__ - WARNING - Job 13 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,378 - __main__ - DEBUG - Extracting job data for item 14
+2025-09-28 15:47:17,378 - __main__ - WARNING - Job 14 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,378 - __main__ - DEBUG - Extracting job data for item 15
+2025-09-28 15:47:17,378 - __main__ - WARNING - Job 15 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,379 - __main__ - DEBUG - Extracting job data for item 16
+2025-09-28 15:47:17,379 - __main__ - WARNING - Job 16 skipped: invalid title 'N/A'
+2025-09-28 15:47:17,379 - __main__ - INFO - Page 1 completed: 0 jobs extracted
+2025-09-28 15:47:17,379 - __main__ - INFO - Total jobs so far: 0
+2025-09-28 15:47:17,382 - selenium.webdriver.common.service - DEBUG - Started executable: `C:\Python312\Lib\site-packages\seleniumbase\drivers\uc_driver.exe` in a child process with pid: 11180 using 134217728 to output -1
+2025-09-28 15:47:20,054 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-09-28 15:47:20,054 - websockets.client - DEBUG - = connection is CLOSING
+2025-09-28 15:47:20,054 - websockets.client - DEBUG - > CLOSE 1000 (OK) [2 bytes]
+2025-09-28 15:47:20,054 - websockets.client - DEBUG - = connection is CLOSING
+2025-09-28 15:47:20,055 - websockets.client - DEBUG - < TEXT '{"method":"Target.targetInfoChanged","params":{...9DB9513827E6B1E5F2B"}}}' [761 bytes]
+2025-09-28 15:47:20,055 - websockets.client - DEBUG - < EOF
+2025-09-28 15:47:20,055 - websockets.client - DEBUG - < EOF
+2025-09-28 15:47:20,055 - websockets.client - DEBUG - > EOF
+2025-09-28 15:47:20,055 - websockets.client - DEBUG - = connection is CLOSED
+2025-09-28 15:47:20,056 - websockets.client - DEBUG - < EOF
+2025-09-28 15:47:20,056 - websockets.client - DEBUG - < EOF
+2025-09-28 15:47:20,056 - websockets.client - DEBUG - > EOF
+2025-09-28 15:47:20,056 - websockets.client - DEBUG - = connection is CLOSED
+2025-09-28 15:47:20,090 - __main__ - INFO - ============================================================
+2025-09-28 15:47:20,090 - __main__ - INFO - SCRAPING SESSION COMPLETED
+2025-09-28 15:47:20,091 - __main__ - INFO - ============================================================
+2025-09-28 15:47:20,091 - __main__ - INFO - Duration: 56.59 seconds
+2025-09-28 15:47:20,091 - __main__ - INFO - Jobs found: 0
+2025-09-28 15:47:20,091 - __main__ - INFO - Pages scraped: 1
+2025-09-28 15:47:20,091 - __main__ - INFO - Success rate: 100.0%
+2025-09-28 15:47:20,094 - root - DEBUG - Temp profile C:\Users\User\AppData\Local\Temp\uc_uvam4mod was removed.

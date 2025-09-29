@@ -409,9 +409,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [@seotanvirbd](https://github.com/seotanvirbd)
+- LinkedIn: [Mohammad Tanvir](https://www.linkedin.com/in/seotanvirbd/)
+- Portfolio: [https://seotanvirbd.com/portfolio/](https://seotanvirbd.com/portfolio/)
 
 ---
 
@@ -445,7 +445,7 @@ This tool is for educational and personal use only. Please review Indeed.com's T
 
 <div align="center">
 
-**Made with ❤️ by developers, for developers**
+**Made with ❤️ by Mohammad Tanvir, for developers**
 
 ⭐ Star this repo if you find it helpful!
 

@@ -408,7 +408,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Mohammad Tanvir**
 - GitHub: [@seotanvirbd](https://github.com/seotanvirbd)
 - LinkedIn: [Mohammad Tanvir](https://www.linkedin.com/in/seotanvirbd/)
 - Portfolio: [https://seotanvirbd.com/portfolio/](https://seotanvirbd.com/portfolio/)

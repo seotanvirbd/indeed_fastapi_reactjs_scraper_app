@@ -1,6 +1,6 @@
-# 🎯 Indeed Job Scraper
+# 🎯 Indeed Job Scraper | Full-Stack Web Scraping Application with React, FastAPI & SeleniumBase
 
-> A powerful, modern web scraping tool for extracting job listings from Indeed.com with real-time analytics and multi-format export capabilities.
+> Professional job listing aggregator built with Python FastAPI, React.js, and advanced web scraping techniques. Features real-time data extraction, anti-bot bypass using SeleniumBase CDP mode, RESTful API architecture, and multi-format data export (CSV, Excel, JSON).
 
 ![Professional Edition](https://img.shields.io/badge/Edition-Professional-success)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
